@@ -8,36 +8,43 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 /**
- * Manager for Firebase Analytics.
+ * FirebaseAnalyticsManager centralizes all Firebase Analytics interactions.
  *
- * Why use a manager?
- * - Centralizes event tracking logic, making maintenance and addition of new events easier.
- * - Abstracts the complexity of the Firebase Analytics API, simplifying usage for ViewModels.
- * - Allows FirebaseAnalytics to be injected via Hilt, ensuring a single instance is used (Singleton).
- * - Makes it easier to disable or substitute Analytics in different environments (e.g., tests).
+ * Purpose:
+ * - Abstracts the FirebaseAnalytics API to make event tracking easier and more maintainable.
+ * - Injected via Hilt as a Singleton to ensure consistent use throughout the app.
+ * - Promotes usage of clearly defined and reusable tracking methods for each type of event.
+ *
+ * Usage examples:
+ * - logSearchEvent("Smartphones")
+ * - logViewItemEvent(itemId = "123", itemName = "iPhone 13", price = 599.99, currency = "BRL")
  */
 @Singleton
 class FirebaseAnalyticsManager @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
 
+    // Underlying Firebase Analytics instance
     private val firebaseAnalytics: FirebaseAnalytics = FirebaseAnalytics.getInstance(context)
 
     /**
-     * Logs an event to Firebase Analytics.
+     * Generic method to log any custom or predefined event.
      *
-     * @param eventName The name of the event to be logged. It's recommended to use predefined Firebase event names
-     *                  or follow clear naming conventions (e.g., snake_case).
-     * @param params An optional Bundle of parameters for the event. Can be null if there are no parameters.
+     * @param eventName Firebase event name (e.g., FirebaseAnalytics.Event.SEARCH)
+     * @param params Optional parameters related to the event (e.g., item_id, screen_name)
      */
     fun logEvent(eventName: String, params: Bundle? = null) {
         firebaseAnalytics.logEvent(eventName, params)
     }
 
     /**
-     * Logs a search event.
+     * Logs a standardized search event to Firebase Analytics.
      *
-     * @param searchTerm The search term used by the user.
+     * Important:
+     * - Should be used whenever a user submits a search query.
+     * - Helps track user intent and popular keywords.
+     *
+     * @param searchTerm The exact query entered by the user.
      */
     fun logSearchEvent(searchTerm: String) {
         val params = Bundle().apply {
@@ -47,13 +54,15 @@ class FirebaseAnalyticsManager @Inject constructor(
     }
 
     /**
-     * Logs a view item event.
+     * Logs a view_item event when the user views the details of a product.
      *
-     * @param itemId The ID of the viewed item.
-     * @param itemName The name of the viewed item.
-     * @param itemCategory The category of the viewed item.
-     * @param price The price of the viewed item.
-     * @param currency The currency of the price of the item.
+     * Firebase uses this event to populate e-commerce funnels and conversion tracking.
+     *
+     * @param itemId Unique identifier of the product
+     * @param itemName Name of the product
+     * @param itemCategory Optional category (e.g., electronics, fashion)
+     * @param price Optional price of the product
+     * @param currency Optional currency code (e.g., "BRL", "USD")
      */
     fun logViewItemEvent(
         itemId: String,
