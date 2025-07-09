@@ -120,6 +120,10 @@ fun SearchScreen(
             Button(
                 onClick = {
                     if (searchQuery.text.isNotBlank()) {
+                        // Log search event to Firebase Analytics
+                        analyticsManager.logSearchEvent(searchQuery.text)
+
+                        // Navigate to results screen
                         navController.navigate("results/${searchQuery.text}")
                     }
                 },
