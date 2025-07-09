@@ -3,18 +3,12 @@ package com.example.mymercadolivreapplication
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.mymercadolivreapplication.navigation.MercadoLivreNavigation
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
+import com.example.mymercadolivreapplication.utils.FirebaseAnalyticsManager
 import dagger.hilt.android.AndroidEntryPoint
+import jakarta.inject.Inject
 
 /**
  * Main activity of the application.
@@ -27,6 +21,9 @@ import dagger.hilt.android.AndroidEntryPoint
  */
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
+    @Inject
+    lateinit var analyticsManager: FirebaseAnalyticsManager
 
     /**
      * Called when the activity is created.
@@ -43,7 +40,7 @@ class MainActivity : ComponentActivity() {
             // Apply the app's theme
             MyMercadoLivreApplicationTheme {
                 // Configure the navigation system of the application
-                MercadoLivreNavigation()
+                MercadoLivreNavigation(analyticsManager = analyticsManager)
             }
         }
     }

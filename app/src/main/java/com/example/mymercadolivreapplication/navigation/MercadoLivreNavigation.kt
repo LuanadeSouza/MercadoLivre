@@ -7,44 +7,57 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.mymercadolivreapplication.ui.detail.ProductDetailScreen
 import com.example.mymercadolivreapplication.ui.result.SearchResultsScreen
-import com.example.mymercadolivreapplication.ui.splash.SplashScreen
 import com.example.mymercadolivreapplication.ui.search.SearchScreen
+import com.example.mymercadolivreapplication.ui.splash.SplashScreen
+import com.example.mymercadolivreapplication.utils.FirebaseAnalyticsManager
 
 /**
- * Navigation system for the application using Navigation Compose.
+ * Main navigation graph of the application using Jetpack Navigation Compose.
  *
- * Why use Navigation Compose?
- * - Native integration with Jetpack Compose: declarative navigation that aligns with the Compose philosophy.
- * - Type-safe navigation: reduces runtime navigation errors.
- * - Automatic management of the navigation stack (back stack).
- * - Safe handling of navigation arguments.
- * - Integration with ViewModel scoping: ViewModels can be shared between destinations.
- * - Support for deep links and conditional navigation.
+ * Responsibilities:
+ * - Defines the structure and routing of screens within the app.
+ * - Associates composable destinations with specific route strings.
+ * - Passes required parameters and dependencies (e.g., FirebaseAnalyticsManager).
  *
- * Navigation Structure:
- * 1. "search" -> Search screen
- * 2. "results/{query}" -> Results screen with search term as an argument
- * 3. "detail/{productId}" -> Product details screen with product ID as an argument
+ * Routes:
+ * - "splash"   -> Initial splash screen.
+ * - "search"   -> Search screen with user input.
+ * - "results/{query}" -> Results screen showing items based on search term.
+ * - "detail/{productId}" -> Detailed view of a selected product.
+ *
+ * @param navController Controller that handles navigation actions and back stack.
+ * @param analyticsManager Manager used to track screen views and interactions.
  */
 @Composable
 fun MercadoLivreNavigation(
-    navController: NavHostController = rememberNavController()
+    navController: NavHostController = rememberNavController(),
+    analyticsManager: FirebaseAnalyticsManager
 ) {
     NavHost(
         navController = navController,
-        startDestination = "splash" // The app starts at the Splash Screen
+        startDestination = "splash" // Launch screen when the app starts
     ) {
-        // Splash Screen
+        // Splash Screen route
         composable("splash") {
-            SplashScreen(onTimeout = { navController.navigate("search") { popUpTo("splash") { inclusive = true } } })
+            SplashScreen(onTimeout = {
+                navController.navigate("search") {
+                    popUpTo("splash") {
+                        inclusive = true
+                    }
+                }
+            })
         }
 
-        // Search Screen
+        // Search Results Screen route
+        // Accepts the search term as a path argument
         composable("search") {
-            SearchScreen(navController = navController)
+            SearchScreen(
+                navController = navController,
+                analyticsManager = analyticsManager
+            )
         }
 
-        // Search Results Screen
+        // Search Results Screen route
         // {query} is a navigation argument containing the search term
         composable("results/{query}") { backStackEntry ->
             val query = backStackEntry.arguments?.getString("query") ?: ""
@@ -54,7 +67,7 @@ fun MercadoLivreNavigation(
             )
         }
 
-        // Product Details Screen
+        // Product Detail Screen route
         // {productId} is a navigation argument containing the product ID
         composable("detail/{productId}") { backStackEntry ->
             val productId = backStackEntry.arguments?.getString("productId") ?: ""
@@ -64,36 +77,4 @@ fun MercadoLivreNavigation(
             )
         }
     }
-}
-
-/**
- * Object that centralizes the navigation routes of the application.
- *
- * Why centralize routes?
- * - Avoids hardcoded strings scattered throughout the code.
- * - Makes maintenance and route changes easier.
- * - Reduces typos in routes.
- * - Improves code readability and organization.
- * - Allows safer refactoring.
- */
-object MercadoLibreDestinations {
-    const val SEARCH = "search"
-    const val RESULTS = "results"
-    const val DETAIL = "detail"
-
-    /**
-     * Builds the route for the results screen with the search term.
-     *
-     * @param query The search term
-     * @return Formatted route for navigation
-     */
-    fun resultsRoute(query: String): String = "$RESULTS/$query"
-
-    /**
-     * Builds the route for the details screen with the product ID.
-     *
-     * @param productId The product ID
-     * @return Formatted route for navigation
-     */
-    fun detailRoute(productId: String): String = "$DETAIL/$productId"
 }
