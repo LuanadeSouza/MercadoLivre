@@ -8,14 +8,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
@@ -45,20 +43,28 @@ import kotlin.math.roundToInt
 /**
  * Main content of the product details screen.
  *
- * Why separate the content into a separate Composable?
- * - Improves code readability and organization.
- * - Eases reusability and testing of specific parts of the UI.
- * - Allows `ProductDetailScreen` to focus on state and navigation logic.
+ * Displays all relevant product information such as images, title, rating, pricing, condition,
+ * shipping details, quantity sold, warranty and product attributes.
+ *
+ * @param product The [ProductDetail] object containing all product information.
  */
 @OptIn(ExperimentalGlideComposeApi::class)
 @Composable
 fun ProductDetailContent(product: ProductDetail) {
+
+    val warrantyLabel = stringResource(id = R.string.warranty_label)
+    val soldLabel = stringResource(id = R.string.sold_label)
+    val productFeaturesLabel = stringResource(id = R.string.product_features_label)
+    val productFeaturesDescription = stringResource(id = R.string.product_features_description)
+    val conditionLabel = stringResource(id = R.string.condition_label)
+    val freeShippingText = stringResource(id = R.string.free_shipping)
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .padding(16.dp)
     ) {
-        // Coluna da esquerda com título
+
         Column(
             modifier = Modifier
                 .fillMaxWidth()
@@ -108,7 +114,7 @@ fun ProductDetailContent(product: ProductDetail) {
             modifier = Modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .semantics { contentDescription = "magens do produto" }
+                .semantics { contentDescription = "imagens do produto" }
         ) { page ->
 
             GlideImage(
@@ -132,7 +138,8 @@ fun ProductDetailContent(product: ProductDetail) {
                     modifier = Modifier
                         .padding(bottom = 2.dp)
                         .semantics {
-                            contentDescription = "Preço original: ${formatPrice(it, product.currencyId)}"
+                            contentDescription =
+                                "Preço original: ${formatPrice(it, product.currencyId)}"
                         }
                 )
             }
@@ -146,7 +153,8 @@ fun ProductDetailContent(product: ProductDetail) {
                     style = Typography.bodyLarge,
                     fontWeight = FontWeight.SemiBold,
                     modifier = Modifier.semantics {
-                        contentDescription = "Preço atual: ${formatPrice(product.price, product.currencyId)}"
+                        contentDescription =
+                            "Preço atual: ${formatPrice(product.price, product.currencyId)}"
                     }
                 )
 
@@ -164,59 +172,62 @@ fun ProductDetailContent(product: ProductDetail) {
             }
         }
 
-        // Condição
+        // Condition
         val conditionFormatted = product.condition.replaceFirstChar {
             if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString()
         }
 
         LabeledText(
-            label = "Condição",
+            label = conditionLabel,
             value = conditionFormatted,
             contentDescription = "Condição do produto: ${product.condition}"
         )
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Frete grátis
+        // Free Shipping
         if (product.shipping?.freeShipping == true) {
             Text(
-                text = stringResource(id = R.string.free_shipping),
+                text = freeShippingText,
                 style = Typography.bodyLarge,
                 color = GreenCustom,
-                fontWeight = FontWeight.SemiBold
+                fontWeight = FontWeight.SemiBold,
+                modifier = Modifier.semantics {
+                    contentDescription = freeShippingText
+                }
             )
         }
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Quantidade vendida
+        // Sold Quantity
         LabeledText(
-            label = "Vendido",
+            label = soldLabel,
             value = product.soldQuantity.toString(),
             contentDescription = "Quantidade vendida: ${product.soldQuantity}",
             modifier = Modifier.padding(bottom = 8.dp)
         )
 
-        // Garantia
+        // Warranty
         product.warranty?.let {
             LabeledText(
-                label = "Garantia",
+                label = warrantyLabel,
                 value = it,
                 contentDescription = "Garantia do produto: $it",
                 modifier = Modifier.padding(bottom = 8.dp)
             )
         }
 
-        // Atributos
+        // Atributes
         if (!product.attributes.isNullOrEmpty()) {
             Text(
-                text = "Características:",
+                text = productFeaturesLabel,
                 style = Typography.bodyLarge,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier
                     .padding(top = 16.dp, bottom = 8.dp)
                     .semantics {
-                        contentDescription = "Características do produto"
+                        contentDescription = productFeaturesDescription
                     }
             )
             Column {
@@ -237,7 +248,7 @@ fun ProductDetailContentPreview() {
                 id = "MLA123",
                 title = "Smart TV LED 50\" 4K Samsung",
                 price = 2500.00,
-                originalPrice =  2800.00,
+                originalPrice = 2800.00,
                 currencyId = "BRL",
                 availableQuantity = 5,
                 condition = "novo",

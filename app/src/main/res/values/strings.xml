@@ -19,5 +19,10 @@
     <string name="product_detail_error_suggestion">Pode ser que este item tenha sido removido ou esteja temporariamente indisponível.</string>
     <string name="back_to_result_search">Voltar para resultados da busca</string>
     <string name="go_home_screen">Ir para tela inicial</string>
+    <string name="warranty_label">Garantia</string>
+    <string name="product_features_label">Características:</string>
+    <string name="product_features_description">Características do produto</string>
+    <string name="sold_label">Vendido</string>
+    <string name="condition_label">Condição</string>
 
 </resources>
