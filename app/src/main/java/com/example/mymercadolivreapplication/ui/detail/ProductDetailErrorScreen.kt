@@ -15,7 +15,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -24,12 +28,32 @@ import com.example.mymercadolivreapplication.ui.theme.DarkGray
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.Typography
 import com.example.mymercadolivreapplication.ui.theme.YellowCustom
+import com.example.mymercadolivreapplication.utils.FirebaseAnalyticsManager
 
+/**
+ * Error screen for the Product Detail page.
+ * Shown when the product detail could not be loaded.
+ *
+ * Provides options for the user to return to the previous search or navigate to the home screen.
+ * Logs user interactions via Firebase Analytics.
+ *
+ * @param onBackToSearch Callback when the user wants to go back to the previous screen.
+ * @param onGoToHome Callback when the user wants to go to the home screen.
+ */
 @Composable
 fun ProductDetailErrorScreen(
     onBackToSearch: () -> Unit,
     onGoToHome: () -> Unit
 ) {
+
+    val context = LocalContext.current
+    val analyticsManager = FirebaseAnalyticsManager(context)
+
+    val productDetailErrorMessage = stringResource(id = R.string.product_detail_error_message)
+    val productDetailErrorSuggestion = stringResource(id = R.string.product_detail_error_suggestion)
+    val backToResultSearch = stringResource(id = R.string.back_to_result_search)
+    val goHomeScreen = stringResource(id = R.string.go_home_screen)
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -39,47 +63,61 @@ fun ProductDetailErrorScreen(
     ) {
         Image(
             painter = painterResource(R.drawable.ic_not_found),
-            contentDescription = "Não encontramos os detalhes deste produto.",
+            contentDescription = productDetailErrorMessage,
+            modifier = Modifier.semantics { contentDescription = productDetailErrorMessage }
         )
 
         Text(
-            text = "Não encontramos os detalhes deste produto.",
-            style = Typography.titleMedium,
+            text = productDetailErrorMessage,
+            style = Typography.titleSmall,
             modifier = Modifier
                 .padding(bottom = 8.dp)
                 .align(Alignment.CenterHorizontally)
+                .semantics { contentDescription = productDetailErrorMessage }
         )
 
         Text(
-            text = "Pode ser que este item tenha sido removido ou esteja temporariamente indisponível.",
+            text = productDetailErrorSuggestion,
             style = Typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.padding(bottom = 24.dp),
+            modifier = Modifier
+                .padding(bottom = 24.dp)
+                .semantics { contentDescription = productDetailErrorSuggestion },
             textAlign = TextAlign.Center
         )
 
         Button(
-            onClick = onBackToSearch,
-            modifier = Modifier.fillMaxWidth(),
+            onClick = {
+                analyticsManager.logEvent("click_back_to_search_button")
+                onBackToSearch()
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .semantics { contentDescription = backToResultSearch },
             colors = ButtonDefaults.buttonColors(
                 containerColor = YellowCustom,
                 contentColor = DarkGray
             )
         ) {
-            Text("Voltar para resultados da busca")
+            Text(backToResultSearch)
         }
 
         Spacer(modifier = Modifier.height(12.dp))
 
         Button(
-            onClick = onGoToHome,
-            modifier = Modifier.fillMaxWidth(),
+            onClick = {
+                analyticsManager.logEvent("click_go_home_button")
+                onGoToHome()
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .semantics { contentDescription = goHomeScreen },
             colors = ButtonDefaults.buttonColors(
                 containerColor = YellowCustom,
                 contentColor = DarkGray
             )
         ) {
-            Text("Ir para tela inicial")
+            Text(goHomeScreen)
         }
     }
 }

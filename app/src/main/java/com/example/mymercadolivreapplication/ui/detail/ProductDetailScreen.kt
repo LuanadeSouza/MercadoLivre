@@ -1,5 +1,6 @@
 package com.example.mymercadolivreapplication.ui.detail
 
+import android.os.Bundle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -24,6 +25,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -38,25 +40,51 @@ import com.example.mymercadolivreapplication.ui.theme.DarkGray
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.Typography
 import com.example.mymercadolivreapplication.ui.theme.YellowCustom
+import com.example.mymercadolivreapplication.utils.FirebaseAnalyticsManager
+import com.google.firebase.analytics.FirebaseAnalytics
 
 /**
  * Product details screen.
  * Displays detailed information about a specific product.
+ *
+ * Responsibilities:
+ * - Loads and displays product detail based on a given productId.
+ * - Handles different UI states: loading, error, and content.
+ * - Provides navigation back and home actions.
+ * - Logs screen view and user interactions to Firebase Analytics.
+ *
+ * @param navController Controller to handle back and navigation actions.
+ * @param productId Identifier for the product to load details for.
+ * @param analyticsManager Manager to log analytics events (injected by default).
+ * @param viewModel ViewModel responsible for fetching product details.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProductDetailScreen(
     navController: NavController,
     productId: String,
+    analyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager(
+        context = LocalContext.current
+    ),
     viewModel: ProductDetailViewModel = hiltViewModel()
 ) {
     // Collecting the UI state from the ViewModel
     val viewState by viewModel.viewState.collectAsState()
 
-    // Trigger loading of product details when the screen is composed
+    // Trigger product load and screen view logging on composition
     LaunchedEffect(productId) {
         viewModel.loadProductDetail(productId)
+
+        // Log screen view event
+        analyticsManager.logEvent(
+            FirebaseAnalytics.Event.SCREEN_VIEW,
+            Bundle().apply {
+                putString(FirebaseAnalytics.Param.SCREEN_NAME, "product_detail_screen")
+                putString(FirebaseAnalytics.Param.SCREEN_CLASS, "ProductDetailScreen")
+            }
+        )
     }
+
 
     Scaffold(
         topBar = {
@@ -76,6 +104,7 @@ fun ProductDetailScreen(
                     IconButton(
                         onClick = {
                             viewModel.clearProductDetail()
+                            analyticsManager.logEvent("click_back_button")
                             navController.popBackStack()
                         }) {
                         Icon(
@@ -109,8 +138,14 @@ fun ProductDetailScreen(
 
                 viewState.errorMessage != null -> {
                     ProductDetailErrorScreen(
-                        onBackToSearch = { navController.popBackStack() },
-                        onGoToHome = { navController.navigate("search") { popUpTo(0) } }
+                        onBackToSearch = {
+                            analyticsManager.logEvent("click_back_to_search_button")
+                            navController.popBackStack()
+                        },
+                        onGoToHome = {
+                            analyticsManager.logEvent("click_go_home_button")
+                            navController.navigate("search") { popUpTo(0) }
+                        }
                     )
                 }
 
