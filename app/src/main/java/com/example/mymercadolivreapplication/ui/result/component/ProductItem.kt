@@ -9,12 +9,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Star
-import androidx.compose.material.icons.outlined.Star
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -34,7 +30,6 @@ import com.example.mymercadolivreapplication.R
 import com.example.mymercadolivreapplication.data.model.Product
 import com.example.mymercadolivreapplication.data.model.Shipping
 import com.example.mymercadolivreapplication.ui.component.RatingStars
-import com.example.mymercadolivreapplication.ui.theme.BlueCustom
 import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.Typography
@@ -64,16 +59,16 @@ import kotlin.math.roundToInt
 fun ProductItem(product: Product, onClick: () -> Unit) {
     Card(
         modifier = Modifier
-            .width(150.dp) 
-            .height(270.dp) 
-            .clickable(onClick = onClick) 
+            .width(150.dp)
+            .height(250.dp)
+            .clickable(onClick = onClick)
             .semantics {
                 contentDescription = "Produto: ${product.title}, Preço: ${
                     formatPrice(
                         product.price,
                         product.currencyId
                     )
-                }" 
+                }"
             },
         colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {
@@ -178,11 +173,11 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
 
                 Spacer(modifier = Modifier.height(4.dp))
 
-                 if (product.shipping?.freeShipping == true) {
+                if (product.shipping?.freeShipping == true) {
                     Text(
                         text = stringResource(id = R.string.free_shipping),
                         style = Typography.labelMedium,
-                        color = GreenCustom, 
+                        color = GreenCustom,
                         modifier = Modifier.semantics {
                             contentDescription = "Frete grátis disponível para o produto"
                         }

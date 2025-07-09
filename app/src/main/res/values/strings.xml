@@ -2,6 +2,7 @@
     <string name="app_name">Mercado Livre</string>
     <string name="search_hint">Buscar produtos...</string>
     <string name="search_button">Buscar</string>
+    <string name="search">Buscar no Mercado Livre</string>
     <string name="no_results">Nenhum resultado encontrado</string>
     <string name="error_network">Erro de conexão. Verifique sua internet.</string>
     <string name="error_generic">Ocorreu um erro. Tente novamente.</string>
