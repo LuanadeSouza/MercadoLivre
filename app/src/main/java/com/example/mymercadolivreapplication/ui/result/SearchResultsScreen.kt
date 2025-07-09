@@ -1,5 +1,6 @@
 package com.example.mymercadolivreapplication.ui.result
 
+import android.os.Bundle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -42,28 +43,49 @@ import com.example.mymercadolivreapplication.ui.theme.DarkGray
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.Typography
 import com.example.mymercadolivreapplication.ui.theme.YellowCustom
+import com.example.mymercadolivreapplication.utils.FirebaseAnalyticsManager
+import com.google.firebase.analytics.FirebaseAnalytics
 
 /**
- * Product search results screen.
- * Displays a list of found products and allows navigation to the product details screen.
+ * Screen that displays the search results for a given query.
  *
- * Why Scaffold?
- * - Provides a basic structure for Material Design screens (TopAppBar, FloatingActionButton, etc.).
- * - Manages content padding, ensuring that it is not overlapped by the top bar.
+ * Responsibilities:
+ * - Fetches and displays a list of products based on a search term.
+ * - Handles UI states: loading, error, no results, and list of results.
+ * - Supports navigation to product details.
+ * - Logs screen view and search result analytics events.
+ *
+ * @param navController Controller used to handle navigation actions.
+ * @param query The term entered by the user to search products.
+ * @param analyticsManager Manager used for tracking analytics events.
+ * @param viewModel ViewModel responsible for managing the search logic and state.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchResultsScreen(
     navController: NavController,
     query: String,
+    analyticsManager: FirebaseAnalyticsManager = FirebaseAnalyticsManager(
+        context = androidx.compose.ui.platform.LocalContext.current
+    ),
     viewModel: SearchViewModel = hiltViewModel()
 ) {
     // Collecting the UI state from the ViewModel
     val viewState by viewModel.viewState.collectAsState()
 
-    // Trigger search when the screen is composed for the first time or when the query changes
+    // Trigger search and analytics logging on screen composition
     LaunchedEffect(query) {
         viewModel.searchProducts(query)
+
+        analyticsManager.logEvent(
+            FirebaseAnalytics.Event.SCREEN_VIEW,
+            Bundle().apply {
+                putString(FirebaseAnalytics.Param.SCREEN_NAME, "search_results_screen")
+                putString(FirebaseAnalytics.Param.SCREEN_CLASS, "SearchResultsScreen")
+            }
+        )
+
+        analyticsManager.logSearchEvent(query)
     }
 
     Scaffold(
@@ -79,7 +101,15 @@ fun SearchResultsScreen(
                     )
                 },
                 navigationIcon = {
-                    IconButton(onClick = { navController.popBackStack() }) {
+                    IconButton(
+                        onClick = {
+                            analyticsManager.logEvent(
+                                "click_back_from_results",
+                                Bundle().apply {
+                                    putString("origin", "SearchResultsScreen")
+                                }
+                            )
+                            navController.popBackStack() }) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                             contentDescription = stringResource(id = R.string.back_description)
@@ -144,6 +174,15 @@ fun SearchResultsScreen(
                     ) {
                         items(viewState.products) { product ->
                             ProductItem(product = product) {
+                                analyticsManager.logEvent(
+                                    "click_product_from_results",
+                                    Bundle().apply {
+                                        putString("product_id", product.id)
+                                        putString("product_title", product.title)
+                                        putString("from_screen", "SearchResultsScreen")
+                                    }
+                                )
+
                                 // Navigates to the product details screen
                                 navController.navigate("detail/${product.id}")
                             }
