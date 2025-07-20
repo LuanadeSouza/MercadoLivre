@@ -78,3 +78,19 @@ Certifique-se de que você tenha o Android Studio instalado e configurado corret
 
 1. Clone o repositório:
 [git clone https://github.com/seu_usuario/mercadolivre-api-integration.git](https://github.com/LuanadeSouza/MercadoLivre.git)
+
+
+## Estrutura de Pastas
+
+- **ui**: Contém os componentes da interface de usuário (telas, views, etc).
+  - **search**: Tela de busca de produtos.
+  - **detail**: Tela de detalhes do produto.
+  - **splash**: Tela inicial do aplicativo.
+
+- **data**: Contém os modelos de dados e repositórios responsáveis pela interação com a API.
+
+- **utils**: Contém utilitários, como o carregamento de arquivos JSON de **assets** e o gerenciador do **Firebase Analytics**.
+
+- **domain**: Contém casos de uso e lógica de negócios.
+
+- **navigation**: Contém a lógica de navegação entre as telas.
