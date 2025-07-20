@@ -11,12 +11,25 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+/**
+ * Main activity of the application.
+ * This is the entry point for the Android app and initializes the app UI and navigation.
+ *
+ * Why use @AndroidEntryPoint?
+ * - Integrates Hilt with the Activity lifecycle.
+ * - Allows Hilt to inject dependencies directly into the Activity (if needed).
+ * - This is the entry point for the Hilt dependency injection graph in Android.
+ */
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        installSplashScreen() // Initializes the splash screen for the app
         setContent {
             MyMercadoLivreApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
