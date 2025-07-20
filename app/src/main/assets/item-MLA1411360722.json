@@ -1,0 +1,483 @@
+{
+  "id": "MLA1411360722",
+  "site_id": "MLA",
+  "title": "Arroz Parboil Dos Hermanos Libre Gluten Sin Tacc No Se Pega",
+  "seller_id": 57995397,
+  "category_id": "MLA389311",
+  "official_store_id": 106348,
+  "price": 2699.55,
+  "base_price": 2699.55,
+  "original_price": 5999,
+  "currency_id": "ARS",
+  "initial_quantity": 9465,
+  "sale_terms": [
+    {
+      "id": "INVOICE",
+      "name": "Facturación",
+      "value_id": "6891885",
+      "value_name": "Factura A",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "6891885",
+          "name": "Factura A",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "1 días",
+      "value_struct": {
+        "number": 1,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "1 días",
+          "struct": {
+            "number": 1,
+            "unit": "días"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Cantidad máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230279",
+      "value_name": "Garantía de fábrica",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230279",
+          "name": "Garantía de fábrica",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1411360722-arroz-parboil-dos-hermanos-libre-gluten-sin-tacc-no-se-pega-_JM",
+  "thumbnail_id": "805370-MLA43144907870_082020",
+  "thumbnail": "http://http2.mlstatic.com/D_805370-MLA43144907870_082020-I.jpg",
+  "pictures": [
+    {
+      "id": "805370-MLA43144907870_082020",
+      "url": "http://http2.mlstatic.com/D_805370-MLA43144907870_082020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_805370-MLA43144907870_082020-O.jpg",
+      "size": "265x500",
+      "max_size": "519x977",
+      "quality": ""
+    },
+    {
+      "id": "980008-MLU73129566696_122023",
+      "url": "http://http2.mlstatic.com/D_980008-MLU73129566696_122023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_980008-MLU73129566696_122023-O.jpg",
+      "size": "292x500",
+      "max_size": "608x1040",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["self_service_in"],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQkJFTDcyNTJa",
+      "name": "Belgrano"
+    },
+    "state": {
+      "id": "AR-C",
+      "name": "Capital Federal"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQkJFTDcyNTJa",
+        "name": "Belgrano"
+      },
+      "city": {
+        "id": "TUxBQ0NBUGZlZG1sYQ",
+        "name": "Capital Federal"
+      },
+      "state": {
+        "id": "TUxBUENBUGw3M2E1",
+        "name": "Capital Federal"
+      }
+    },
+    "id": 244331259
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "12179114",
+      "value_name": "Dos Hermanos",
+      "values": [
+        {
+          "id": "12179114",
+          "name": "Dos Hermanos",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_FOR_SUSHI",
+      "name": "Es para sushi",
+      "value_id": "242084",
+      "value_name": "No",
+      "values": [
+        {
+          "id": "242084",
+          "name": "No",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "Es libre de gluten",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "value_id": "13046605",
+      "value_name": "Arroz",
+      "values": [
+        {
+          "id": "13046605",
+          "name": "Arroz",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "13793954",
+      "value_name": "Arroz Parboil Dos Hermanos Libre Gluten Sin Tacc No Se Pega",
+      "values": [
+        {
+          "id": "13793954",
+          "name": "Arroz Parboil Dos Hermanos Libre Gluten Sin Tacc No Se Pega",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "NET_WEIGHT",
+      "name": "Peso neto",
+      "value_id": "135512",
+      "value_name": "1 kg",
+      "values": [
+        {
+          "id": "135512",
+          "name": "1 kg",
+          "struct": {
+            "number": 1,
+            "unit": "kg"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura del paquete",
+      "value_id": null,
+      "value_name": "6.4 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "6.4 cm",
+          "struct": {
+            "number": 6.4,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Largo del paquete",
+      "value_id": null,
+      "value_name": "20.6 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "20.6 cm",
+          "struct": {
+            "number": 20.6,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso del paquete",
+      "value_id": null,
+      "value_name": "1000 g",
+      "values": [
+        {
+          "id": null,
+          "name": "1000 g",
+          "struct": {
+            "number": 1000,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Ancho del paquete",
+      "value_id": null,
+      "value_name": "11.2 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "11.2 cm",
+          "struct": {
+            "number": 11.2,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGING_TYPE",
+      "name": "Tipo de envase",
+      "value_id": "371015",
+      "value_name": "Bolsa",
+      "values": [
+        {
+          "id": "371015",
+          "name": "Bolsa",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PROCESSING_TYPE",
+      "name": "Tipo de procesado",
+      "value_id": "16916231",
+      "value_name": "Parboil",
+      "values": [
+        {
+          "id": "16916231",
+          "name": "Parboil",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservación del producto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características del producto",
+      "value_id": "7435888",
+      "value_name": "Con vencimiento",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Con vencimiento",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_QUALITY",
+      "name": "Calidad del arroz",
+      "value_id": "9027293",
+      "value_name": "00000",
+      "values": [
+        {
+          "id": "9027293",
+          "name": "00000",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_SHAPE",
+      "name": "Forma",
+      "value_id": "7332807",
+      "value_name": "Largo",
+      "values": [
+        {
+          "id": "7332807",
+          "name": "Largo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_TYPE",
+      "name": "Tipo de arroz",
+      "value_id": "15430983",
+      "value_name": "Blanco",
+      "values": [
+        {
+          "id": "15430983",
+          "name": "Blanco",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venta",
+      "value_id": "1359391",
+      "value_name": "Unidad",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidad",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalaje del envío",
+      "value_id": "7435892",
+      "value_name": "Caja",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caja",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "good_quality_thumbnail",
+    "supermarket_eligible",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía de fábrica: 1 días",
+  "catalog_product_id": "MLA19936763",
+  "domain_id": "MLA-RICE",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2023-05-06T18:43:28.000Z",
+  "last_updated": "2025-03-14T18:28:53.181Z",
+  "health": null,
+  "catalog_listing": true
+}

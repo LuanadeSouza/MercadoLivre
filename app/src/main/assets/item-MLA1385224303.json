@@ -1,0 +1,2230 @@
+{
+  "id": "MLA1385224303",
+  "site_id": "MLA",
+  "title": "Camisas Elastizada Entalladas Slim Fit Hombre",
+  "seller_id": 20587698,
+  "category_id": "MLA417218",
+  "official_store_id": null,
+  "price": 18899,
+  "base_price": 18899,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 2421,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230280",
+      "value_name": "Garantía del vendedor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230280",
+          "name": "Garantía del vendedor",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "7 días",
+      "value_struct": {
+        "number": 7,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "7 días",
+          "struct": {
+            "number": 7,
+            "unit": "días"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1385224303-camisas-elastizada-entalladas-slim-fit-hombre-_JM",
+  "thumbnail_id": "701170-MLA71367699072_082023",
+  "thumbnail": "http://http2.mlstatic.com/D_701170-MLA71367699072_082023-I.jpg",
+  "pictures": [
+    {
+      "id": "727435-MLA69547799075_052023",
+      "url": "http://http2.mlstatic.com/D_727435-MLA69547799075_052023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_727435-MLA69547799075_052023-O.jpg",
+      "size": "293x500",
+      "max_size": "705x1200",
+      "quality": ""
+    },
+    {
+      "id": "603454-MLA69534562502_052023",
+      "url": "http://http2.mlstatic.com/D_603454-MLA69534562502_052023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_603454-MLA69534562502_052023-O.jpg",
+      "size": "250x500",
+      "max_size": "601x1200",
+      "quality": ""
+    },
+    {
+      "id": "898852-MLA69534562500_052023",
+      "url": "http://http2.mlstatic.com/D_898852-MLA69534562500_052023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_898852-MLA69534562500_052023-O.jpg",
+      "size": "270x500",
+      "max_size": "648x1200",
+      "quality": ""
+    },
+    {
+      "id": "880632-MLA78734470335_082024",
+      "url": "http://http2.mlstatic.com/D_880632-MLA78734470335_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_880632-MLA78734470335_082024-O.jpg",
+      "size": "333x500",
+      "max_size": "800x1200",
+      "quality": ""
+    },
+    {
+      "id": "851676-MLA78502039848_082024",
+      "url": "http://http2.mlstatic.com/D_851676-MLA78502039848_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_851676-MLA78502039848_082024-O.jpg",
+      "size": "327x500",
+      "max_size": "787x1200",
+      "quality": ""
+    },
+    {
+      "id": "764444-MLA78734500041_082024",
+      "url": "http://http2.mlstatic.com/D_764444-MLA78734500041_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_764444-MLA78734500041_082024-O.jpg",
+      "size": "333x500",
+      "max_size": "800x1200",
+      "quality": ""
+    },
+    {
+      "id": "657196-MLA78734637925_082024",
+      "url": "http://http2.mlstatic.com/D_657196-MLA78734637925_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_657196-MLA78734637925_082024-O.jpg",
+      "size": "285x500",
+      "max_size": "686x1200",
+      "quality": ""
+    },
+    {
+      "id": "768848-MLA78502039874_082024",
+      "url": "http://http2.mlstatic.com/D_768848-MLA78502039874_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_768848-MLA78502039874_082024-O.jpg",
+      "size": "333x500",
+      "max_size": "800x1200",
+      "quality": ""
+    },
+    {
+      "id": "699019-MLA71367857964_082023",
+      "url": "http://http2.mlstatic.com/D_699019-MLA71367857964_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_699019-MLA71367857964_082023-O.jpg",
+      "size": "217x500",
+      "max_size": "500x1150",
+      "quality": ""
+    },
+    {
+      "id": "977575-MLA71367454248_082023",
+      "url": "http://http2.mlstatic.com/D_977575-MLA71367454248_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_977575-MLA71367454248_082023-O.jpg",
+      "size": "248x500",
+      "max_size": "579x1167",
+      "quality": ""
+    },
+    {
+      "id": "736847-MLA71367808508_082023",
+      "url": "http://http2.mlstatic.com/D_736847-MLA71367808508_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_736847-MLA71367808508_082023-O.jpg",
+      "size": "236x500",
+      "max_size": "560x1184",
+      "quality": ""
+    },
+    {
+      "id": "879265-MLA71367698520_082023",
+      "url": "http://http2.mlstatic.com/D_879265-MLA71367698520_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_879265-MLA71367698520_082023-O.jpg",
+      "size": "259x500",
+      "max_size": "623x1200",
+      "quality": ""
+    },
+    {
+      "id": "627086-MLA71411404413_082023",
+      "url": "http://http2.mlstatic.com/D_627086-MLA71411404413_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_627086-MLA71411404413_082023-O.jpg",
+      "size": "213x500",
+      "max_size": "500x1169",
+      "quality": ""
+    },
+    {
+      "id": "622215-MLA71367909056_082023",
+      "url": "http://http2.mlstatic.com/D_622215-MLA71367909056_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_622215-MLA71367909056_082023-O.jpg",
+      "size": "261x500",
+      "max_size": "617x1179",
+      "quality": ""
+    },
+    {
+      "id": "701170-MLA71367699072_082023",
+      "url": "http://http2.mlstatic.com/D_701170-MLA71367699072_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_701170-MLA71367699072_082023-O.jpg",
+      "size": "283x500",
+      "max_size": "680x1200",
+      "quality": ""
+    },
+    {
+      "id": "724344-MLA71411679543_082023",
+      "url": "http://http2.mlstatic.com/D_724344-MLA71411679543_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_724344-MLA71411679543_082023-O.jpg",
+      "size": "251x500",
+      "max_size": "603x1200",
+      "quality": ""
+    },
+    {
+      "id": "896520-MLA71367632936_082023",
+      "url": "http://http2.mlstatic.com/D_896520-MLA71367632936_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_896520-MLA71367632936_082023-O.jpg",
+      "size": "260x500",
+      "max_size": "624x1200",
+      "quality": ""
+    },
+    {
+      "id": "638738-MLA71368015692_082023",
+      "url": "http://http2.mlstatic.com/D_638738-MLA71368015692_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_638738-MLA71368015692_082023-O.jpg",
+      "size": "256x500",
+      "max_size": "616x1200",
+      "quality": ""
+    },
+    {
+      "id": "829658-MLA71368015694_082023",
+      "url": "http://http2.mlstatic.com/D_829658-MLA71368015694_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_829658-MLA71368015694_082023-O.jpg",
+      "size": "256x500",
+      "max_size": "616x1200",
+      "quality": ""
+    },
+    {
+      "id": "632101-MLA71411875217_082023",
+      "url": "http://http2.mlstatic.com/D_632101-MLA71411875217_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_632101-MLA71411875217_082023-O.jpg",
+      "size": "249x500",
+      "max_size": "599x1200",
+      "quality": ""
+    },
+    {
+      "id": "812423-MLA78557490244_082024",
+      "url": "http://http2.mlstatic.com/D_812423-MLA78557490244_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_812423-MLA78557490244_082024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    },
+    {
+      "id": "761768-MLA78557144646_082024",
+      "url": "http://http2.mlstatic.com/D_761768-MLA78557144646_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_761768-MLA78557144646_082024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    },
+    {
+      "id": "952471-MLA78557283654_082024",
+      "url": "http://http2.mlstatic.com/D_952471-MLA78557283654_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_952471-MLA78557283654_082024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    },
+    {
+      "id": "897966-MLA78557421924_082024",
+      "url": "http://http2.mlstatic.com/D_897966-MLA78557421924_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_897966-MLA78557421924_082024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    },
+    {
+      "id": "942167-MLA78557422534_082024",
+      "url": "http://http2.mlstatic.com/D_942167-MLA78557422534_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_942167-MLA78557422534_082024-O.jpg",
+      "size": "348x500",
+      "max_size": "797x1144",
+      "quality": ""
+    },
+    {
+      "id": "611749-MLA78557422542_082024",
+      "url": "http://http2.mlstatic.com/D_611749-MLA78557422542_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_611749-MLA78557422542_082024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["MLA-test-threshold-nov-23", "self_service_in"],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "cross_docking",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQkJBTDMxMDZa",
+      "name": "Balvanera"
+    },
+    "state": {
+      "id": "AR-C",
+      "name": "Capital Federal"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQkJBTDMxMDZa",
+        "name": "Balvanera"
+      },
+      "city": {
+        "id": "TUxBQ0NBUGZlZG1sYQ",
+        "name": "Capital Federal"
+      },
+      "state": {
+        "id": "TUxBUENBUGw3M2E1",
+        "name": "Capital Federal"
+      }
+    },
+    "id": 1183664369
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "2674856",
+      "value_name": "Rogers",
+      "values": [
+        {
+          "id": "2674856",
+          "name": "Rogers",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": null,
+      "value_name": "Camisa Entallada Elastizada",
+      "values": [
+        {
+          "id": null,
+          "name": "Camisa Entallada Elastizada",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "AGE_GROUP",
+      "name": "Edad",
+      "value_id": "6725189",
+      "value_name": "Adultos",
+      "values": [
+        {
+          "id": "6725189",
+          "name": "Adultos",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "339666",
+      "value_name": "Hombre",
+      "values": [
+        {
+          "id": "339666",
+          "name": "Hombre",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "OCCASIONS",
+      "name": "Ocasiones",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características del producto",
+      "value_id": null,
+      "value_name": "Plegable,Sin vencimiento",
+      "values": [
+        {
+          "id": "41722098",
+          "name": "Plegable",
+          "struct": null
+        },
+        {
+          "id": "8847339",
+          "name": "Sin vencimiento",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RELEASE_SEASON",
+      "name": "Temporada de lanzamiento",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RELEASE_YEAR",
+      "name": "Año de lanzamiento",
+      "value_id": null,
+      "value_name": "2023",
+      "values": [
+        {
+          "id": null,
+          "name": "2023",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalaje del envío",
+      "value_id": "7435891",
+      "value_name": "Bolsa",
+      "values": [
+        {
+          "id": "7435891",
+          "name": "Bolsa",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SHIRT_COLLAR",
+      "name": "Cuello",
+      "value_id": null,
+      "value_name": "Palomita",
+      "values": [
+        {
+          "id": null,
+          "name": "Palomita",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIRT_MATERIAL",
+      "name": "Material",
+      "value_id": "6589643",
+      "value_name": "Algodón/Spandex",
+      "values": [
+        {
+          "id": "6589643",
+          "name": "Algodón/Spandex",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SIZE_GRID_ID",
+      "name": "ID de la guía de talles",
+      "value_id": null,
+      "value_name": "1633495",
+      "values": [
+        {
+          "id": null,
+          "name": "1633495",
+          "struct": null
+        }
+      ],
+      "value_type": "grid_id"
+    },
+    {
+      "id": "SLEEVE_TYPE",
+      "name": "Tipo de manga",
+      "value_id": "466805",
+      "value_name": "Larga",
+      "values": [
+        {
+          "id": "466805",
+          "name": "Larga",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "STYLES",
+      "name": "Estilos",
+      "value_id": null,
+      "value_name": "Elegante;Trabajo",
+      "values": [
+        {
+          "id": null,
+          "name": "Elegante;Trabajo",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "WEDGE_SHAPE",
+      "name": "Forma del calce",
+      "value_id": "34241295",
+      "value_name": "Slim",
+      "values": [
+        {
+          "id": "34241295",
+          "name": "Slim",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WITH_RECYCLED_MATERIALS",
+      "name": "Con materiales reciclados",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    }
+  ],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 179664398827,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51994",
+          "value_name": "Rosa",
+          "values": [
+            {
+              "id": "51994",
+              "name": "Rosa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "701170-MLA71367699072_082023",
+        "724344-MLA71411679543_082023",
+        "896520-MLA71367632936_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398833,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51994",
+          "value_name": "Rosa",
+          "values": [
+            {
+              "id": "51994",
+              "name": "Rosa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "701170-MLA71367699072_082023",
+        "724344-MLA71411679543_082023",
+        "896520-MLA71367632936_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398817,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "879265-MLA71367698520_082023",
+        "627086-MLA71411404413_082023",
+        "622215-MLA71367909056_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179639366601,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "727435-MLA69547799075_052023",
+        "603454-MLA69534562502_052023",
+        "898852-MLA69534562500_052023",
+        "880632-MLA78734470335_082024",
+        "851676-MLA78502039848_082024",
+        "764444-MLA78734500041_082024",
+        "657196-MLA78734637925_082024",
+        "768848-MLA78502039874_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179639366609,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "727435-MLA69547799075_052023",
+        "603454-MLA69534562502_052023",
+        "898852-MLA69534562500_052023",
+        "880632-MLA78734470335_082024",
+        "851676-MLA78502039848_082024",
+        "764444-MLA78734500041_082024",
+        "657196-MLA78734637925_082024",
+        "768848-MLA78502039874_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179639366603,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "727435-MLA69547799075_052023",
+        "603454-MLA69534562502_052023",
+        "898852-MLA69534562500_052023",
+        "880632-MLA78734470335_082024",
+        "851676-MLA78502039848_082024",
+        "764444-MLA78734500041_082024",
+        "657196-MLA78734637925_082024",
+        "768848-MLA78502039874_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179639366605,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "727435-MLA69547799075_052023",
+        "603454-MLA69534562502_052023",
+        "898852-MLA69534562500_052023",
+        "880632-MLA78734470335_082024",
+        "851676-MLA78502039848_082024",
+        "764444-MLA78734500041_082024",
+        "657196-MLA78734637925_082024",
+        "768848-MLA78502039874_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179639366607,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "727435-MLA69547799075_052023",
+        "603454-MLA69534562502_052023",
+        "898852-MLA69534562500_052023",
+        "880632-MLA78734470335_082024",
+        "851676-MLA78502039848_082024",
+        "764444-MLA78734500041_082024",
+        "657196-MLA78734637925_082024",
+        "768848-MLA78502039874_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398807,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "699019-MLA71367857964_082023",
+        "977575-MLA71367454248_082023",
+        "736847-MLA71367808508_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398809,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "699019-MLA71367857964_082023",
+        "977575-MLA71367454248_082023",
+        "736847-MLA71367808508_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398811,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "699019-MLA71367857964_082023",
+        "977575-MLA71367454248_082023",
+        "736847-MLA71367808508_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398813,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "699019-MLA71367857964_082023",
+        "977575-MLA71367454248_082023",
+        "736847-MLA71367808508_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398815,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "699019-MLA71367857964_082023",
+        "977575-MLA71367454248_082023",
+        "736847-MLA71367808508_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398819,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "879265-MLA71367698520_082023",
+        "627086-MLA71411404413_082023",
+        "622215-MLA71367909056_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398821,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "879265-MLA71367698520_082023",
+        "627086-MLA71411404413_082023",
+        "622215-MLA71367909056_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398823,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "879265-MLA71367698520_082023",
+        "627086-MLA71411404413_082023",
+        "622215-MLA71367909056_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398825,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "879265-MLA71367698520_082023",
+        "627086-MLA71411404413_082023",
+        "622215-MLA71367909056_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398829,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51994",
+          "value_name": "Rosa",
+          "values": [
+            {
+              "id": "51994",
+              "name": "Rosa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "701170-MLA71367699072_082023",
+        "724344-MLA71411679543_082023",
+        "896520-MLA71367632936_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398831,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51994",
+          "value_name": "Rosa",
+          "values": [
+            {
+              "id": "51994",
+              "name": "Rosa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "701170-MLA71367699072_082023",
+        "724344-MLA71411679543_082023",
+        "896520-MLA71367632936_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398835,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51994",
+          "value_name": "Rosa",
+          "values": [
+            {
+              "id": "51994",
+              "name": "Rosa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "701170-MLA71367699072_082023",
+        "724344-MLA71411679543_082023",
+        "896520-MLA71367632936_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398837,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "638738-MLA71368015692_082023",
+        "829658-MLA71368015694_082023",
+        "632101-MLA71411875217_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398839,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "638738-MLA71368015692_082023",
+        "829658-MLA71368015694_082023",
+        "632101-MLA71411875217_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398841,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "638738-MLA71368015692_082023",
+        "829658-MLA71368015694_082023",
+        "632101-MLA71411875217_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398843,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "638738-MLA71368015692_082023",
+        "829658-MLA71368015694_082023",
+        "632101-MLA71411875217_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 179664398845,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "638738-MLA71368015692_082023",
+        "829658-MLA71368015694_082023",
+        "632101-MLA71411875217_082023"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443371,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Borgoña",
+          "values": [
+            {
+              "id": null,
+              "name": "Borgoña",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "812423-MLA78557490244_082024",
+        "761768-MLA78557144646_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443373,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "952471-MLA78557283654_082024",
+        "897966-MLA78557421924_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443375,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Borgoña",
+          "values": [
+            {
+              "id": null,
+              "name": "Borgoña",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "812423-MLA78557490244_082024",
+        "761768-MLA78557144646_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443377,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "952471-MLA78557283654_082024",
+        "897966-MLA78557421924_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443379,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Borgoña",
+          "values": [
+            {
+              "id": null,
+              "name": "Borgoña",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "812423-MLA78557490244_082024",
+        "761768-MLA78557144646_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443381,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "952471-MLA78557283654_082024",
+        "897966-MLA78557421924_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443383,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Borgoña",
+          "values": [
+            {
+              "id": null,
+              "name": "Borgoña",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "812423-MLA78557490244_082024",
+        "761768-MLA78557144646_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443385,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "952471-MLA78557283654_082024",
+        "897966-MLA78557421924_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443387,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Borgoña",
+          "values": [
+            {
+              "id": null,
+              "name": "Borgoña",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "812423-MLA78557490244_082024",
+        "761768-MLA78557144646_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574443389,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "952471-MLA78557283654_082024",
+        "897966-MLA78557421924_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574599361,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Benneton",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Benneton",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "942167-MLA78557422534_082024",
+        "611749-MLA78557422542_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574599363,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Benneton",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Benneton",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "942167-MLA78557422534_082024",
+        "611749-MLA78557422542_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574599365,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Benneton",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Benneton",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "942167-MLA78557422534_082024",
+        "611749-MLA78557422542_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574599367,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Benneton",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Benneton",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "942167-MLA78557422534_082024",
+        "611749-MLA78557422542_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184574599369,
+      "price": 18899,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Benneton",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Benneton",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "942167-MLA78557422534_082024",
+        "611749-MLA78557422542_082024"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "certified_quality_thumbnail",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía del vendedor: 7 días",
+  "catalog_product_id": null,
+  "domain_id": "MLA-SHIRTS",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2023-08-28T18:12:34.000Z",
+  "last_updated": "2025-03-14T14:30:11.629Z",
+  "health": 0.81,
+  "catalog_listing": false
+}

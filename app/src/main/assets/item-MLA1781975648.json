@@ -1,0 +1,503 @@
+{
+  "id": "MLA1781975648",
+  "site_id": "MLA",
+  "title": "Harina De Arroz Dicomere 1kg - Sin Tacc - Vegano",
+  "seller_id": 57995397,
+  "category_id": "MLA389313",
+  "official_store_id": 106348,
+  "price": 2879.4,
+  "base_price": 2879.4,
+  "original_price": 4799,
+  "currency_id": "ARS",
+  "initial_quantity": 2971,
+  "sale_terms": [
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Cantidad máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "INVOICE",
+      "name": "Facturación",
+      "value_id": "6891885",
+      "value_name": "Factura A",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "6891885",
+          "name": "Factura A",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230279",
+      "value_name": "Garantía de fábrica",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230279",
+          "name": "Garantía de fábrica",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "1 días",
+      "value_struct": {
+        "number": 1,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "1 días",
+          "struct": {
+            "number": 1,
+            "unit": "días"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1781975648-harina-de-arroz-dicomere-1kg-sin-tacc-vegano-_JM",
+  "thumbnail_id": "958936-MLA80081238730_102024",
+  "thumbnail": "http://http2.mlstatic.com/D_958936-MLA80081238730_102024-I.jpg",
+  "pictures": [
+    {
+      "id": "958936-MLA80081238730_102024",
+      "url": "http://http2.mlstatic.com/D_958936-MLA80081238730_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_958936-MLA80081238730_102024-O.jpg",
+      "size": "347x500",
+      "max_size": "835x1200",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["self_service_in"],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQkJFTDcyNTJa",
+      "name": "Belgrano"
+    },
+    "state": {
+      "id": "AR-C",
+      "name": "Capital Federal"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQkJFTDcyNTJa",
+        "name": "Belgrano"
+      },
+      "city": {
+        "id": "TUxBQ0NBUGZlZG1sYQ",
+        "name": "Capital Federal"
+      },
+      "state": {
+        "id": "TUxBUENBUGw3M2E1",
+        "name": "Capital Federal"
+      }
+    },
+    "id": 244331259
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BASE_INGREDIENT",
+      "name": "Ingrediente base",
+      "value_id": "9219619",
+      "value_name": "Arroz",
+      "values": [
+        {
+          "id": "9219619",
+          "name": "Arroz",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "13338262",
+      "value_name": "Dicomere",
+      "values": [
+        {
+          "id": "13338262",
+          "name": "Dicomere",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "FLOUR_TYPE",
+      "name": "Tipo de harina",
+      "value_id": "37881631",
+      "value_name": "000",
+      "values": [
+        {
+          "id": "37881631",
+          "name": "000",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "Es libre de gluten",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_LACTOSE_FREE",
+      "name": "Es libre de lactosa",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_LOW_IN_SODIUM",
+      "name": "Es bajo en sodio",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_SUGAR_FREE",
+      "name": "Es libre de azúcar",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_VEGAN",
+      "name": "Es vegano",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_WHOLEWHEAT",
+      "name": "Es integral",
+      "value_id": "242084",
+      "value_name": "No",
+      "values": [
+        {
+          "id": "242084",
+          "name": "No",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "value_id": "345402",
+      "value_name": "Natural",
+      "values": [
+        {
+          "id": "345402",
+          "name": "Natural",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "48579839",
+      "value_name": "Harina De Arroz Dicomere 1kg - sin tacc - vegano",
+      "values": [
+        {
+          "id": "48579839",
+          "name": "Harina De Arroz Dicomere 1kg - sin tacc - vegano",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "NET_WEIGHT",
+      "name": "Peso neto",
+      "value_id": "135512",
+      "value_name": "1 kg",
+      "values": [
+        {
+          "id": "135512",
+          "name": "1 kg",
+          "struct": {
+            "number": 1,
+            "unit": "kg"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura del paquete",
+      "value_id": null,
+      "value_name": "5.2 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "5.2 cm",
+          "struct": {
+            "number": 5.2,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Largo del paquete",
+      "value_id": null,
+      "value_name": "22.8 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "22.8 cm",
+          "struct": {
+            "number": 22.8,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso del paquete",
+      "value_id": null,
+      "value_name": "1020 g",
+      "values": [
+        {
+          "id": null,
+          "name": "1020 g",
+          "struct": {
+            "number": 1020,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Ancho del paquete",
+      "value_id": null,
+      "value_name": "12 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "12 cm",
+          "struct": {
+            "number": 12,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservación del producto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características del producto",
+      "value_id": "7435888",
+      "value_name": "Con vencimiento",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Con vencimiento",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venta",
+      "value_id": "1359391",
+      "value_name": "Unidad",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidad",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SELLER_SKU",
+      "name": "SKU",
+      "value_id": null,
+      "value_name": "Oct1850",
+      "values": [
+        {
+          "id": null,
+          "name": "Oct1850",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalaje del envío",
+      "value_id": "7435892",
+      "value_name": "Caja",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caja",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "good_quality_thumbnail",
+    "supermarket_eligible",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía de fábrica: 1 días",
+  "catalog_product_id": "MLA20719722",
+  "domain_id": "MLA-FLOUR",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2024-05-22T13:48:50.000Z",
+  "last_updated": "2025-03-14T17:52:13.983Z",
+  "health": null,
+  "catalog_listing": true
+}

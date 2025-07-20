@@ -1,0 +1,1019 @@
+{
+  "id": "MLA1884722608",
+  "site_id": "MLA",
+  "title": "Zapatillas Skater Oversize Negras",
+  "seller_id": 265699968,
+  "category_id": "MLA109027",
+  "official_store_id": 81634,
+  "price": 66300,
+  "base_price": 66300,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 4664,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230279",
+      "value_name": "Garantía de fábrica",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230279",
+          "name": "Garantía de fábrica",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "30 días",
+      "value_struct": {
+        "number": 30,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "30 días",
+          "struct": {
+            "number": 30,
+            "unit": "días"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1884722608-zapatillas-skater-oversize-negras-_JM",
+  "thumbnail_id": "987959-MLA78756940907_082024",
+  "thumbnail": "http://http2.mlstatic.com/D_987959-MLA78756940907_082024-I.jpg",
+  "pictures": [
+    {
+      "id": "987959-MLA78756940907_082024",
+      "url": "http://http2.mlstatic.com/D_987959-MLA78756940907_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_987959-MLA78756940907_082024-O.jpg",
+      "size": "500x234",
+      "max_size": "908x425",
+      "quality": ""
+    },
+    {
+      "id": "859505-MLA78756999839_082024",
+      "url": "http://http2.mlstatic.com/D_859505-MLA78756999839_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_859505-MLA78756999839_082024-O.jpg",
+      "size": "500x248",
+      "max_size": "1023x509",
+      "quality": ""
+    },
+    {
+      "id": "912780-MLA78524295636_082024",
+      "url": "http://http2.mlstatic.com/D_912780-MLA78524295636_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_912780-MLA78524295636_082024-O.jpg",
+      "size": "500x232",
+      "max_size": "915x426",
+      "quality": ""
+    },
+    {
+      "id": "913110-MLA78523904152_082024",
+      "url": "http://http2.mlstatic.com/D_913110-MLA78523904152_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_913110-MLA78523904152_082024-O.jpg",
+      "size": "500x225",
+      "max_size": "925x418",
+      "quality": ""
+    },
+    {
+      "id": "784182-MLA78756921735_082024",
+      "url": "http://http2.mlstatic.com/D_784182-MLA78756921735_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_784182-MLA78756921735_082024-O.jpg",
+      "size": "500x500",
+      "max_size": "1158x1158",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["self_service_in", "mandatory_free_shipping"],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": true,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "name": "Valentín Alsina"
+    },
+    "state": {
+      "id": "AR-B",
+      "name": "Buenos Aires"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQlZBTDQ3MTZa",
+        "name": "Valentín Alsina"
+      },
+      "city": {
+        "id": "TUxBQ0xBTmJjYzE4",
+        "name": "Lanús"
+      },
+      "state": {
+        "id": "TUxBUEdSQXJlMDNm",
+        "name": "Bs.As. G.B.A. Sur"
+      }
+    },
+    "id": 1169757180
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "ADJUSTMENT_TYPES",
+      "name": "Tipos de ajuste",
+      "value_id": "7445558",
+      "value_name": "Cordones",
+      "values": [
+        {
+          "id": "7445558",
+          "name": "Cordones",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "AGE_GROUP",
+      "name": "Edad",
+      "value_id": "6725189",
+      "value_name": "Adultos",
+      "values": [
+        {
+          "id": "6725189",
+          "name": "Adultos",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "2786791",
+      "value_name": "Ozono",
+      "values": [
+        {
+          "id": "2786791",
+          "name": "Ozono",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "EXTERIOR_MATERIALS",
+      "name": "Materiales del exterior",
+      "value_id": null,
+      "value_name": "cuero gamuzado",
+      "values": [
+        {
+          "id": null,
+          "name": "cuero gamuzado",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "FOOTWEAR_TYPE",
+      "name": "Tipo de calzado",
+      "value_id": "517583",
+      "value_name": "Zapatilla",
+      "values": [
+        {
+          "id": "517583",
+          "name": "Zapatilla",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "110461",
+      "value_name": "Sin género",
+      "values": [
+        {
+          "id": "110461",
+          "name": "Sin género",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "INTERIOR_MATERIALS",
+      "name": "Materiales del interior",
+      "value_id": "5823845",
+      "value_name": "Tela",
+      "values": [
+        {
+          "id": "5823845",
+          "name": "Tela",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": null,
+      "value_name": "877",
+      "values": [
+        {
+          "id": null,
+          "name": "877",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "OUTSOLE_MATERIALS",
+      "name": "Materiales de la suela",
+      "value_id": null,
+      "value_name": "espansor",
+      "values": [
+        {
+          "id": null,
+          "name": "espansor",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características del producto",
+      "value_id": "8847339",
+      "value_name": "Sin vencimiento",
+      "values": [
+        {
+          "id": "8847339",
+          "name": "Sin vencimiento",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RECOMMENDED_USES",
+      "name": "Usos recomendados",
+      "value_id": "32272328",
+      "value_name": "Urbano",
+      "values": [
+        {
+          "id": "32272328",
+          "name": "Urbano",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalaje del envío",
+      "value_id": "7435891",
+      "value_name": "Bolsa",
+      "values": [
+        {
+          "id": "7435891",
+          "name": "Bolsa",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SIZE_GRID_ID",
+      "name": "ID de la guía de talles",
+      "value_id": null,
+      "value_name": "2083727",
+      "values": [
+        {
+          "id": null,
+          "name": "2083727",
+          "struct": null
+        }
+      ],
+      "value_type": "grid_id"
+    },
+    {
+      "id": "WIDTH_TYPE",
+      "name": "Tipo de ancho",
+      "value_id": "15665145",
+      "value_name": "Ancho",
+      "values": [
+        {
+          "id": "15665145",
+          "name": "Ancho",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "WITH_RECYCLED_MATERIALS",
+      "name": "Con materiales reciclados",
+      "value_id": "242084",
+      "value_name": "No",
+      "values": [
+        {
+          "id": "242084",
+          "name": "No",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    }
+  ],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 181382154160,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375702",
+          "value_name": "38 AR",
+          "values": [
+            {
+              "id": "11375702",
+              "name": "38 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154176,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375783",
+          "value_name": "46 AR",
+          "values": [
+            {
+              "id": "11375783",
+              "name": "46 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154158,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11504182",
+          "value_name": "37 AR",
+          "values": [
+            {
+              "id": "11504182",
+              "name": "37 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154156,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375692",
+          "value_name": "36 AR",
+          "values": [
+            {
+              "id": "11375692",
+              "name": "36 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154162,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375709",
+          "value_name": "39 AR",
+          "values": [
+            {
+              "id": "11375709",
+              "name": "39 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154164,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375715",
+          "value_name": "40 AR",
+          "values": [
+            {
+              "id": "11375715",
+              "name": "40 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154166,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375726",
+          "value_name": "41 AR",
+          "values": [
+            {
+              "id": "11375726",
+              "name": "41 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154168,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375741",
+          "value_name": "42 AR",
+          "values": [
+            {
+              "id": "11375741",
+              "name": "42 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154170,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375749",
+          "value_name": "43 AR",
+          "values": [
+            {
+              "id": "11375749",
+              "name": "43 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154172,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375761",
+          "value_name": "44 AR",
+          "values": [
+            {
+              "id": "11375761",
+              "name": "44 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 181382154174,
+      "price": 66300,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": null,
+          "value_name": "877 Negro",
+          "values": [
+            {
+              "id": null,
+              "name": "877 Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "11375768",
+          "value_name": "45 AR",
+          "values": [
+            {
+              "id": "11375768",
+              "name": "45 AR",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "987959-MLA78756940907_082024",
+        "859505-MLA78756999839_082024",
+        "912780-MLA78524295636_082024",
+        "913110-MLA78523904152_082024",
+        "784182-MLA78756921735_082024"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "certified_quality_thumbnail",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía de fábrica: 30 días",
+  "catalog_product_id": null,
+  "domain_id": "MLA-SNEAKERS",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2024-08-16T03:13:49.880Z",
+  "last_updated": "2025-03-14T18:59:45.571Z",
+  "health": 0.88,
+  "catalog_listing": false
+}

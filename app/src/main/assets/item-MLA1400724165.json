@@ -1,0 +1,508 @@
+{
+  "id": "MLA1400724165",
+  "site_id": "MLA",
+  "title": "Lucchetti Arroz Largo Fino X 1kg",
+  "seller_id": 192120013,
+  "category_id": "MLA389311",
+  "official_store_id": null,
+  "price": 2520,
+  "base_price": 2520,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 4052,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "6150835",
+      "value_name": "Sin garantía",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "6150835",
+          "name": "Sin garantía",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "INVOICE",
+      "name": "Facturación",
+      "value_id": "6891888",
+      "value_name": "No factura",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "6891888",
+          "name": "No factura",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Cantidad máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-1400724165-lucchetti-arroz-largo-fino-x-1kg-_JM",
+  "thumbnail_id": "781290-MLU74154674327_012024",
+  "thumbnail": "http://http2.mlstatic.com/D_781290-MLU74154674327_012024-I.jpg",
+  "pictures": [
+    {
+      "id": "781290-MLU74154674327_012024",
+      "url": "http://http2.mlstatic.com/D_781290-MLU74154674327_012024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_781290-MLU74154674327_012024-O.jpg",
+      "size": "322x500",
+      "max_size": "536x831",
+      "quality": ""
+    },
+    {
+      "id": "686932-MLU73428010843_122023",
+      "url": "http://http2.mlstatic.com/D_686932-MLU73428010843_122023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_686932-MLU73428010843_122023-O.jpg",
+      "size": "491x500",
+      "max_size": "787x800",
+      "quality": ""
+    },
+    {
+      "id": "852846-MLU73428079389_122023",
+      "url": "http://http2.mlstatic.com/D_852846-MLU73428079389_122023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_852846-MLU73428079389_122023-O.jpg",
+      "size": "500x225",
+      "max_size": "1200x542",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["self_service_out", "self_service_available"],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQ0xPTWMwNjk3",
+      "name": "Lomas de Zamora"
+    },
+    "state": {
+      "id": "AR-B",
+      "name": "Buenos Aires"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "city": {
+        "id": "TUxBQ0xPTWMwNjk3",
+        "name": "Lomas de Zamora"
+      },
+      "state": {
+        "id": "TUxBUEdSQXJlMDNm",
+        "name": "Bs.As. G.B.A. Sur"
+      }
+    },
+    "id": 330588164
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "4437124",
+      "value_name": "Lucchetti",
+      "values": [
+        {
+          "id": "4437124",
+          "name": "Lucchetti",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_FOR_SUSHI",
+      "name": "Es para sushi",
+      "value_id": "242084",
+      "value_name": "No",
+      "values": [
+        {
+          "id": "242084",
+          "name": "No",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "Es libre de gluten",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_ORGANIC_PRODUCT",
+      "name": "Es producto orgánico",
+      "value_id": "242084",
+      "value_name": "No",
+      "values": [
+        {
+          "id": "242084",
+          "name": "No",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Línea",
+      "value_id": "18938891",
+      "value_name": "Arroces",
+      "values": [
+        {
+          "id": "18938891",
+          "name": "Arroces",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "26823581",
+      "value_name": "Lucchetti Arroz Largo Fino X 1kg",
+      "values": [
+        {
+          "id": "26823581",
+          "name": "Lucchetti Arroz Largo Fino X 1kg",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "NET_WEIGHT",
+      "name": "Peso neto",
+      "value_id": "135512",
+      "value_name": "1 kg",
+      "values": [
+        {
+          "id": "135512",
+          "name": "1 kg",
+          "struct": {
+            "number": 1,
+            "unit": "kg"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura del paquete",
+      "value_id": null,
+      "value_name": "5.4 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "5.4 cm",
+          "struct": {
+            "number": 5.4,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Largo del paquete",
+      "value_id": null,
+      "value_name": "20.8 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "20.8 cm",
+          "struct": {
+            "number": 20.8,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso del paquete",
+      "value_id": null,
+      "value_name": "1000 g",
+      "values": [
+        {
+          "id": null,
+          "name": "1000 g",
+          "struct": {
+            "number": 1000,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Ancho del paquete",
+      "value_id": null,
+      "value_name": "10.8 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "10.8 cm",
+          "struct": {
+            "number": 10.8,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGING_TYPE",
+      "name": "Tipo de envase",
+      "value_id": "371015",
+      "value_name": "Bolsa",
+      "values": [
+        {
+          "id": "371015",
+          "name": "Bolsa",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PROCESSING_TYPE",
+      "name": "Tipo de procesado",
+      "value_id": "7326250",
+      "value_name": "Blanco",
+      "values": [
+        {
+          "id": "7326250",
+          "name": "Blanco",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservación del producto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características del producto",
+      "value_id": "7435888",
+      "value_name": "Con vencimiento",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Con vencimiento",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_QUALITY",
+      "name": "Calidad del arroz",
+      "value_id": "9027293",
+      "value_name": "00000",
+      "values": [
+        {
+          "id": "9027293",
+          "name": "00000",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_SHAPE",
+      "name": "Forma",
+      "value_id": "7332807",
+      "value_name": "Largo",
+      "values": [
+        {
+          "id": "7332807",
+          "name": "Largo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RICE_TYPE",
+      "name": "Tipo de arroz",
+      "value_id": "13793951",
+      "value_name": "Largo Fino",
+      "values": [
+        {
+          "id": "13793951",
+          "name": "Largo Fino",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "RNE_ESTABLISHMENT_NATIONAL_REGISTRATION_NUMBER",
+      "name": "Número de Registro Nacional de Establecimiento (RNE)",
+      "value_id": null,
+      "value_name": "800279816/1",
+      "values": [
+        {
+          "id": null,
+          "name": "800279816/1",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "RNPA_PRODUCT_INSCRIPTION_NUMBER",
+      "name": "Número de inscripción de producto (RNPA)",
+      "value_id": null,
+      "value_name": "08-001576",
+      "values": [
+        {
+          "id": null,
+          "name": "08-001576",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venta",
+      "value_id": "1359391",
+      "value_name": "Unidad",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidad",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalaje del envío",
+      "value_id": "7435892",
+      "value_name": "Caja",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caja",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por pack",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "supermarket_eligible",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Sin garantía",
+  "catalog_product_id": "MLA28574104",
+  "domain_id": "MLA-RICE",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2023-12-30T15:28:46.170Z",
+  "last_updated": "2025-03-14T19:24:31.345Z",
+  "health": null,
+  "catalog_listing": true
+}

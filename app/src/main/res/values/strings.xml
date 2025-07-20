@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">MyMercadoLivreApplication</string>
+    <string name="app_name">Mercado Livre</string>
+    <string name="search_hint">Buscar produtos...</string>
+    <string name="search_button">Buscar</string>
+    <string name="no_results">Nenhum resultado encontrado</string>
+    <string name="error_network">Erro de conexão. Verifique sua internet.</string>
+    <string name="error_generic">Ocorreu um erro. Tente novamente.</string>
+    <string name="loading">Carregando…</string>
+    <string name="price_format">R$ %.2f</string>
+    <string name="free_shipping">Frete grátis</string>
+    <string name="product_details">Detalhes do Produto</string>
+    <string name="back">Voltar</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="image_description_logo">Imagem de duas mãos se apertando em um gesto de aperto de mão, simbolizando uma troca de confiança ou parceria.</string>
+    <string name="loading_description">Carregando resultados da pesquisa...</string>
+    <string name="search_icon">Ícone de pesquisa</string>
 </resources>

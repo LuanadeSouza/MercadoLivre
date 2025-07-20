@@ -1,0 +1,611 @@
+{
+  "id": "MLB3647888693",
+  "site_id": "MLB",
+  "title": "Café Torrado E Moído Extraforte 250g 3 Corações",
+  "seller_id": 1324362670,
+  "category_id": "MLB247538",
+  "official_store_id": 3545,
+  "price": 16.82,
+  "base_price": 16.82,
+  "original_price": 18.69,
+  "currency_id": "BRL",
+  "initial_quantity": 877,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tempo de garantia",
+      "value_id": null,
+      "value_name": "0 meses",
+      "value_struct": {
+        "number": 0,
+        "unit": "meses"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "0 meses",
+          "struct": {
+            "number": 0,
+            "unit": "meses"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Quantidade máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://produto.mercadolivre.com.br/MLB-3647888693-cafe-torrado-e-moido-extraforte-250g-3-coracoes-_JM",
+  "thumbnail_id": "604836-MLU75811690120_042024",
+  "thumbnail": "http://http2.mlstatic.com/D_604836-MLU75811690120_042024-I.jpg",
+  "pictures": [
+    {
+      "id": "604836-MLU75811690120_042024",
+      "url": "http://http2.mlstatic.com/D_604836-MLU75811690120_042024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_604836-MLU75811690120_042024-O.jpg",
+      "size": "500x498",
+      "max_size": "1190x1186",
+      "quality": ""
+    },
+    {
+      "id": "844581-MLU72748497151_112023",
+      "url": "http://http2.mlstatic.com/D_844581-MLU72748497151_112023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_844581-MLU72748497151_112023-O.jpg",
+      "size": "281x500",
+      "max_size": "676x1200",
+      "quality": ""
+    },
+    {
+      "id": "866617-MLU75401258048_042024",
+      "url": "http://http2.mlstatic.com/D_866617-MLU75401258048_042024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_866617-MLU75401258048_042024-O.jpg",
+      "size": "139x500",
+      "max_size": "326x1171",
+      "quality": ""
+    },
+    {
+      "id": "773275-MLA74807969919_022024",
+      "url": "http://http2.mlstatic.com/D_773275-MLA74807969919_022024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_773275-MLA74807969919_022024-O.jpg",
+      "size": "138x500",
+      "max_size": "333x1200",
+      "quality": ""
+    },
+    {
+      "id": "667487-MLA74676701842_022024",
+      "url": "http://http2.mlstatic.com/D_667487-MLA74676701842_022024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_667487-MLA74676701842_022024-O.jpg",
+      "size": "138x500",
+      "max_size": "327x1178",
+      "quality": ""
+    },
+    {
+      "id": "776467-MLU73788563576_012024",
+      "url": "http://http2.mlstatic.com/D_776467-MLU73788563576_012024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_776467-MLU73788563576_012024-O.jpg",
+      "size": "500x418",
+      "max_size": "519x434",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "BR-SP-31",
+      "name": "Osasco"
+    },
+    "state": {
+      "id": "BR-SP",
+      "name": "São Paulo"
+    },
+    "country": {
+      "id": "BR",
+      "name": "Brasil"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TVhYU2FudGEgRsOpVFZoWVQzTmhjMk52VkZWN",
+        "name": "Santa Fé"
+      },
+      "city": {
+        "id": "TVhYT3Nhc2NvVFV4Q1VGTkJUMDg1TjJFNA",
+        "name": "Osasco"
+      },
+      "state": {
+        "id": "TUxCUFNBT085N2E4",
+        "name": "São Paulo"
+      }
+    },
+    "id": 1289327580
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "FLAVOR",
+      "name": "Sabor",
+      "value_id": "9810856",
+      "value_name": "Extraforte",
+      "values": [
+        {
+          "id": "9810856",
+          "name": "Extraforte",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "INSTANT_COFFEE_TYPE",
+      "name": "Tipo de café solúvel",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_DIET_PRODUCT",
+      "name": "É produto dietético",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "É livre de glúten",
+      "value_id": "242085",
+      "value_name": "Sim",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sim",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_ORGANIC_PRODUCT",
+      "name": "É produto orgânico",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_ROASTED",
+      "name": "É torrefacto",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ORIGIN",
+      "name": "Origem",
+      "value_id": "21074691",
+      "value_name": "Brasileira",
+      "values": [
+        {
+          "id": "21074691",
+          "name": "Brasileira",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "3636730",
+      "value_name": "3 Corações",
+      "values": [
+        {
+          "id": "3636730",
+          "name": "3 Corações",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "COFFEE_FORMAT",
+      "name": "Formato do café",
+      "value_id": "8859027",
+      "value_name": "Moído",
+      "values": [
+        {
+          "id": "8859027",
+          "name": "Moído",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "COFFEE_TYPE",
+      "name": "Tipo de café",
+      "value_id": "24459503",
+      "value_name": "Café",
+      "values": [
+        {
+          "id": "24459503",
+          "name": "Café",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_DECAFFEINATED",
+      "name": "É descafeinado",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_KIT",
+      "name": "É kit",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_TAC_FREE",
+      "name": "É livre de TACC",
+      "value_id": "242085",
+      "value_name": "Sim",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sim",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condição do item",
+      "value_id": "2230284",
+      "value_name": "Novo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Novo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Linha",
+      "value_id": "20879064",
+      "value_name": "EXTRAFORTE",
+      "values": [
+        {
+          "id": "20879064",
+          "name": "EXTRAFORTE",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": "26868864",
+      "value_name": "Café Torrado E Moído Extraforte 250g",
+      "values": [
+        {
+          "id": "26868864",
+          "name": "Café Torrado E Moído Extraforte 250g",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura da embalagem",
+      "value_id": null,
+      "value_name": "5.5 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "5.5 cm",
+          "struct": {
+            "number": 5.5,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Comprimento da embalagem",
+      "value_id": null,
+      "value_name": "41.5 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "41.5 cm",
+          "struct": {
+            "number": 41.5,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso da embalagem",
+      "value_id": null,
+      "value_name": "260 g",
+      "values": [
+        {
+          "id": null,
+          "name": "260 g",
+          "struct": {
+            "number": 260,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Largura da embalagem",
+      "value_id": null,
+      "value_name": "12.5 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "12.5 cm",
+          "struct": {
+            "number": 12.5,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGING_TYPE",
+      "name": "Tipo de embalagem",
+      "value_id": "6257502",
+      "value_name": "Pacote",
+      "values": [
+        {
+          "id": "6257502",
+          "name": "Pacote",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservação do produto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características do produto",
+      "value_id": "7435888",
+      "value_name": "Com validade",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Com validade",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venda",
+      "value_id": "1359391",
+      "value_name": "Unidade",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidade",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SELLER_SKU",
+      "name": "SKU",
+      "value_id": null,
+      "value_name": "281225",
+      "values": [
+        {
+          "id": null,
+          "name": "281225",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalagem do envío",
+      "value_id": "7435892",
+      "value_name": "Caixa",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caixa",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "TOASTED_LEVEL",
+      "name": "Nível de torrado",
+      "value_id": "20186427",
+      "value_name": "Escura",
+      "values": [
+        {
+          "id": "20186427",
+          "name": "Escura",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por kit",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "UNITS_PER_PACKAGE",
+      "name": "Unidades por embalagem",
+      "value_id": "7386989",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "7386989",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "UNIT_WEIGHT",
+      "name": "Peso da unidade",
+      "value_id": "140749",
+      "value_name": "250 g",
+      "values": [
+        {
+          "id": "140749",
+          "name": "250 g",
+          "struct": {
+            "number": 250,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "good_quality_thumbnail",
+    "supermarket_eligible",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": null,
+  "catalog_product_id": "MLB27175046",
+  "domain_id": "MLB-GROUND_AND_WHOLE_BEANS_COFFEE",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2024-04-05T13:41:23.000Z",
+  "last_updated": "2025-03-14T17:01:42.223Z",
+  "health": null,
+  "catalog_listing": true
+}

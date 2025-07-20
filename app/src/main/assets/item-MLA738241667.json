@@ -1,0 +1,5791 @@
+{
+  "id": "MLA738241667",
+  "site_id": "MLA",
+  "title": "Camisa Hombre Lisa Color Manga Larga Variedad De Colores",
+  "seller_id": 20587698,
+  "category_id": "MLA417218",
+  "official_store_id": null,
+  "price": 14999,
+  "base_price": 14999,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 3604,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantía",
+      "value_id": "2230280",
+      "value_name": "Garantía del vendedor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230280",
+          "name": "Garantía del vendedor",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tiempo de garantía",
+      "value_id": null,
+      "value_name": "3 meses",
+      "value_struct": {
+        "number": 3,
+        "unit": "meses"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "3 meses",
+          "struct": {
+            "number": 3,
+            "unit": "meses"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-738241667-camisa-hombre-lisa-color-manga-larga-variedad-de-colores-_JM",
+  "thumbnail_id": "662632-MLA42032488596_062020",
+  "thumbnail": "http://http2.mlstatic.com/D_662632-MLA42032488596_062020-I.jpg",
+  "pictures": [
+    {
+      "id": "662632-MLA42032488596_062020",
+      "url": "http://http2.mlstatic.com/D_662632-MLA42032488596_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_662632-MLA42032488596_062020-O.jpg",
+      "size": "283x500",
+      "max_size": "312x550",
+      "quality": ""
+    },
+    {
+      "id": "881367-MLA42032453909_062020",
+      "url": "http://http2.mlstatic.com/D_881367-MLA42032453909_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_881367-MLA42032453909_062020-O.jpg",
+      "size": "300x500",
+      "max_size": "330x550",
+      "quality": ""
+    },
+    {
+      "id": "770757-MLA42032497509_062020",
+      "url": "http://http2.mlstatic.com/D_770757-MLA42032497509_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_770757-MLA42032497509_062020-O.jpg",
+      "size": "249x500",
+      "max_size": "297x596",
+      "quality": ""
+    },
+    {
+      "id": "917014-MLA42032457872_062020",
+      "url": "http://http2.mlstatic.com/D_917014-MLA42032457872_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_917014-MLA42032457872_062020-O.jpg",
+      "size": "380x500",
+      "max_size": "418x550",
+      "quality": ""
+    },
+    {
+      "id": "629631-MLA78734055757_082024",
+      "url": "http://http2.mlstatic.com/D_629631-MLA78734055757_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_629631-MLA78734055757_082024-O.jpg",
+      "size": "325x500",
+      "max_size": "780x1200",
+      "quality": ""
+    },
+    {
+      "id": "634388-MLA42032499543_062020",
+      "url": "http://http2.mlstatic.com/D_634388-MLA42032499543_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_634388-MLA42032499543_062020-O.jpg",
+      "size": "322x500",
+      "max_size": "386x598",
+      "quality": ""
+    },
+    {
+      "id": "874066-MLA42032499524_062020",
+      "url": "http://http2.mlstatic.com/D_874066-MLA42032499524_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_874066-MLA42032499524_062020-O.jpg",
+      "size": "374x500",
+      "max_size": "412x550",
+      "quality": ""
+    },
+    {
+      "id": "875053-MLA42032497541_062020",
+      "url": "http://http2.mlstatic.com/D_875053-MLA42032497541_062020-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_875053-MLA42032497541_062020-O.jpg",
+      "size": "250x500",
+      "max_size": "299x596",
+      "quality": ""
+    },
+    {
+      "id": "875446-MLA78734006827_082024",
+      "url": "http://http2.mlstatic.com/D_875446-MLA78734006827_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_875446-MLA78734006827_082024-O.jpg",
+      "size": "228x500",
+      "max_size": "548x1200",
+      "quality": ""
+    },
+    {
+      "id": "786906-MLA78734006843_082024",
+      "url": "http://http2.mlstatic.com/D_786906-MLA78734006843_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_786906-MLA78734006843_082024-O.jpg",
+      "size": "333x500",
+      "max_size": "800x1200",
+      "quality": ""
+    },
+    {
+      "id": "912367-MLA78501546258_082024",
+      "url": "http://http2.mlstatic.com/D_912367-MLA78501546258_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_912367-MLA78501546258_082024-O.jpg",
+      "size": "319x500",
+      "max_size": "767x1200",
+      "quality": ""
+    },
+    {
+      "id": "794411-MLA78733868961_082024",
+      "url": "http://http2.mlstatic.com/D_794411-MLA78733868961_082024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_794411-MLA78733868961_082024-O.jpg",
+      "size": "333x500",
+      "max_size": "800x1200",
+      "quality": ""
+    },
+    {
+      "id": "963515-MLA76594644519_052024",
+      "url": "http://http2.mlstatic.com/D_963515-MLA76594644519_052024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_963515-MLA76594644519_052024-O.jpg",
+      "size": "391x500",
+      "max_size": "819x1047",
+      "quality": ""
+    },
+    {
+      "id": "651862-MLA76595269769_052024",
+      "url": "http://http2.mlstatic.com/D_651862-MLA76595269769_052024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_651862-MLA76595269769_052024-O.jpg",
+      "size": "369x500",
+      "max_size": "887x1200",
+      "quality": ""
+    },
+    {
+      "id": "637451-MLA76400720122_052024",
+      "url": "http://http2.mlstatic.com/D_637451-MLA76400720122_052024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_637451-MLA76400720122_052024-O.jpg",
+      "size": "346x500",
+      "max_size": "721x1039",
+      "quality": ""
+    },
+    {
+      "id": "693413-MLA76400957948_052024",
+      "url": "http://http2.mlstatic.com/D_693413-MLA76400957948_052024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_693413-MLA76400957948_052024-O.jpg",
+      "size": "349x500",
+      "max_size": "804x1150",
+      "quality": ""
+    },
+    {
+      "id": "778867-MLA76400958224_052024",
+      "url": "http://http2.mlstatic.com/D_778867-MLA76400958224_052024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_778867-MLA76400958224_052024-O.jpg",
+      "size": "345x500",
+      "max_size": "756x1095",
+      "quality": ""
+    },
+    {
+      "id": "972426-MLA78738496916_092024",
+      "url": "http://http2.mlstatic.com/D_972426-MLA78738496916_092024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_972426-MLA78738496916_092024-O.jpg",
+      "size": "286x500",
+      "max_size": "688x1200",
+      "quality": ""
+    },
+    {
+      "id": "813569-MLA80303989167_102024",
+      "url": "http://http2.mlstatic.com/D_813569-MLA80303989167_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_813569-MLA80303989167_102024-O.jpg",
+      "size": "375x500",
+      "max_size": "900x1200",
+      "quality": ""
+    },
+    {
+      "id": "787387-MLA80048587060_102024",
+      "url": "http://http2.mlstatic.com/D_787387-MLA80048587060_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_787387-MLA80048587060_102024-O.jpg",
+      "size": "390x500",
+      "max_size": "938x1200",
+      "quality": ""
+    },
+    {
+      "id": "702341-MLA80303949545_102024",
+      "url": "http://http2.mlstatic.com/D_702341-MLA80303949545_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_702341-MLA80303949545_102024-O.jpg",
+      "size": "345x500",
+      "max_size": "828x1200",
+      "quality": ""
+    },
+    {
+      "id": "678869-MLA80303940263_102024",
+      "url": "http://http2.mlstatic.com/D_678869-MLA80303940263_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_678869-MLA80303940263_102024-O.jpg",
+      "size": "372x500",
+      "max_size": "894x1200",
+      "quality": ""
+    },
+    {
+      "id": "920805-MLA80303940265_102024",
+      "url": "http://http2.mlstatic.com/D_920805-MLA80303940265_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_920805-MLA80303940265_102024-O.jpg",
+      "size": "375x500",
+      "max_size": "900x1200",
+      "quality": ""
+    },
+    {
+      "id": "662625-MLA80303860995_102024",
+      "url": "http://http2.mlstatic.com/D_662625-MLA80303860995_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_662625-MLA80303860995_102024-O.jpg",
+      "size": "460x500",
+      "max_size": "1106x1200",
+      "quality": ""
+    },
+    {
+      "id": "922557-MLA80048449838_102024",
+      "url": "http://http2.mlstatic.com/D_922557-MLA80048449838_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_922557-MLA80048449838_102024-O.jpg",
+      "size": "396x500",
+      "max_size": "952x1200",
+      "quality": ""
+    },
+    {
+      "id": "938358-MLA80048707396_102024",
+      "url": "http://http2.mlstatic.com/D_938358-MLA80048707396_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_938358-MLA80048707396_102024-O.jpg",
+      "size": "364x500",
+      "max_size": "874x1200",
+      "quality": ""
+    },
+    {
+      "id": "866891-MLA80048774102_102024",
+      "url": "http://http2.mlstatic.com/D_866891-MLA80048774102_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_866891-MLA80048774102_102024-O.jpg",
+      "size": "281x500",
+      "max_size": "675x1200",
+      "quality": ""
+    },
+    {
+      "id": "658153-MLA80049408566_102024",
+      "url": "http://http2.mlstatic.com/D_658153-MLA80049408566_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_658153-MLA80049408566_102024-O.jpg",
+      "size": "356x500",
+      "max_size": "831x1167",
+      "quality": ""
+    },
+    {
+      "id": "613474-MLA80307299711_102024",
+      "url": "http://http2.mlstatic.com/D_613474-MLA80307299711_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_613474-MLA80307299711_102024-O.jpg",
+      "size": "375x500",
+      "max_size": "900x1200",
+      "quality": ""
+    },
+    {
+      "id": "650383-MLA80307212061_102024",
+      "url": "http://http2.mlstatic.com/D_650383-MLA80307212061_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_650383-MLA80307212061_102024-O.jpg",
+      "size": "377x500",
+      "max_size": "905x1200",
+      "quality": ""
+    },
+    {
+      "id": "795486-MLA80307212059_102024",
+      "url": "http://http2.mlstatic.com/D_795486-MLA80307212059_102024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_795486-MLA80307212059_102024-O.jpg",
+      "size": "351x500",
+      "max_size": "843x1200",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": ["self_service_in"],
+    "dimensions": null,
+    "local_pick_up": true,
+    "free_shipping": false,
+    "logistic_type": "cross_docking",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQkJBTDMxMDZa",
+      "name": "Balvanera"
+    },
+    "state": {
+      "id": "AR-C",
+      "name": "Capital Federal"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxBQkJBTDMxMDZa",
+        "name": "Balvanera"
+      },
+      "city": {
+        "id": "TUxBQ0NBUGZlZG1sYQ",
+        "name": "Capital Federal"
+      },
+      "state": {
+        "id": "TUxBUENBUGw3M2E1",
+        "name": "Capital Federal"
+      }
+    },
+    "id": 1183664369
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "34678071",
+      "value_name": "Rogers Jeans",
+      "values": [
+        {
+          "id": "34678071",
+          "name": "Rogers Jeans",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": null,
+      "value_name": "Batista",
+      "values": [
+        {
+          "id": null,
+          "name": "Batista",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "AGE_GROUP",
+      "name": "Edad",
+      "value_id": "6725189",
+      "value_name": "Adultos",
+      "values": [
+        {
+          "id": "6725189",
+          "name": "Adultos",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "339666",
+      "value_name": "Hombre",
+      "values": [
+        {
+          "id": "339666",
+          "name": "Hombre",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "OCCASIONS",
+      "name": "Ocasiones",
+      "value_id": "433356",
+      "value_name": "Casual",
+      "values": [
+        {
+          "id": "433356",
+          "name": "Casual",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "RELEASE_SEASON",
+      "name": "Temporada de lanzamiento",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "RELEASE_YEAR",
+      "name": "Año de lanzamiento",
+      "value_id": null,
+      "value_name": "2024",
+      "values": [
+        {
+          "id": null,
+          "name": "2024",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "SHIRT_COLLAR",
+      "name": "Cuello",
+      "value_id": null,
+      "value_name": "Palomita",
+      "values": [
+        {
+          "id": null,
+          "name": "Palomita",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIRT_MATERIAL",
+      "name": "Material",
+      "value_id": "479926",
+      "value_name": "Algodón/Poliéster",
+      "values": [
+        {
+          "id": "479926",
+          "name": "Algodón/Poliéster",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SIZE_GRID_ID",
+      "name": "ID de la guía de talles",
+      "value_id": null,
+      "value_name": "695489",
+      "values": [
+        {
+          "id": null,
+          "name": "695489",
+          "struct": null
+        }
+      ],
+      "value_type": "grid_id"
+    },
+    {
+      "id": "SLEEVE_TYPE",
+      "name": "Tipo de manga",
+      "value_id": "466805",
+      "value_name": "Larga",
+      "values": [
+        {
+          "id": "466805",
+          "name": "Larga",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "STYLES",
+      "name": "Estilos",
+      "value_id": null,
+      "value_name": "Casual;Trabajo",
+      "values": [
+        {
+          "id": null,
+          "name": "Casual;Trabajo",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "WITH_RECYCLED_MATERIALS",
+      "name": "Con materiales reciclados",
+      "value_id": "-1",
+      "value_name": null,
+      "values": [
+        {
+          "id": "-1",
+          "name": null,
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    }
+  ],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 54283045151,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045127,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045131,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045155,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045123,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045171,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045145,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045116,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045139,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045167,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045135,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 54283045163,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178421991331,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178421991333,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178421991335,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52055",
+          "value_name": "Blanco",
+          "values": [
+            {
+              "id": "52055",
+              "name": "Blanco",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "874066-MLA42032499524_062020",
+        "875053-MLA42032497541_062020",
+        "875446-MLA78734006827_082024",
+        "786906-MLA78734006843_082024",
+        "912367-MLA78501546258_082024",
+        "794411-MLA78733868961_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891359,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891361,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891363,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52021",
+          "value_name": "Celeste",
+          "values": [
+            {
+              "id": "52021",
+              "name": "Celeste",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662632-MLA42032488596_062020",
+        "881367-MLA42032453909_062020",
+        "770757-MLA42032497509_062020",
+        "917014-MLA42032457872_062020",
+        "629631-MLA78734055757_082024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891365,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891367,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 178959891369,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52049",
+          "value_name": "Negro",
+          "values": [
+            {
+              "id": "52049",
+              "name": "Negro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "18333603",
+          "value_name": "Batista",
+          "values": [
+            {
+              "id": "18333603",
+              "name": "Batista",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["634388-MLA42032499543_062020"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350531,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350533,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350535,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350537,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350539,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350541,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350543,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51993",
+          "value_name": "Rojo",
+          "values": [
+            {
+              "id": "51993",
+              "name": "Rojo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["963515-MLA76594644519_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363063,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363065,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363067,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363069,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363071,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363073,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182893363075,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52033",
+          "value_name": "Azul oscuro",
+          "values": [
+            {
+              "id": "52033",
+              "name": "Azul oscuro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["651862-MLA76595269769_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350549,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350551,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350553,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350555,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350557,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350559,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895350561,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52028",
+          "value_name": "Azul",
+          "values": [
+            {
+              "id": "52028",
+              "name": "Azul",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["637451-MLA76400720122_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973069,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973071,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973073,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973075,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973077,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973079,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182890973081,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52015",
+          "value_name": "Verde claro",
+          "values": [
+            {
+              "id": "52015",
+              "name": "Verde claro",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["693413-MLA76400957948_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207271,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207273,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207275,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207277,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207279,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207281,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 182895207283,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "3159919",
+          "value_name": "Verde militar",
+          "values": [
+            {
+              "id": "3159919",
+              "name": "Verde militar",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["778867-MLA76400958224_052024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542331,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542333,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542335,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542337,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542339,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542341,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 184685542343,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "52038",
+          "value_name": "Lila",
+          "values": [
+            {
+              "id": "52038",
+              "name": "Lila",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": ["972426-MLA78738496916_092024"],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185785367309,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185785367311,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185785367313,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185785367315,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185786354683,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185786354685,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185786354687,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185786354689,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185784782809,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185784782811,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185784782813,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185784782815,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185787122191,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185787122193,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185787122195,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185787122197,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185789618255,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259451",
+          "value_name": "38",
+          "values": [
+            {
+              "id": "3259451",
+              "name": "38",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185789618257,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189142",
+          "value_name": "40",
+          "values": [
+            {
+              "id": "3189142",
+              "name": "40",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185789618259,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259453",
+          "value_name": "42",
+          "values": [
+            {
+              "id": "3259453",
+              "name": "42",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185789618261,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3259454",
+          "value_name": "44",
+          "values": [
+            {
+              "id": "3259454",
+              "name": "44",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976896143,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976896145,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976896147,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283149",
+          "value_name": "Coral",
+          "values": [
+            {
+              "id": "283149",
+              "name": "Coral",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "678869-MLA80303940263_102024",
+        "920805-MLA80303940265_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976571857,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976571859,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976571861,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Esmeralda",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Esmeralda",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "866891-MLA80048774102_102024",
+        "658153-MLA80049408566_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976415931,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976415933,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185976415935,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Verde Agua",
+          "values": [
+            {
+              "id": null,
+              "name": "Verde Agua",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "613474-MLA80307299711_102024",
+        "650383-MLA80307212061_102024",
+        "795486-MLA80307212059_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001967,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001969,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189154",
+          "value_name": "46",
+          "values": [
+            {
+              "id": "3189154",
+              "name": "46",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001971,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001973,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189158",
+          "value_name": "48",
+          "values": [
+            {
+              "id": "3189158",
+              "name": "48",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001975,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "51998",
+          "value_name": "Bordó",
+          "values": [
+            {
+              "id": "51998",
+              "name": "Bordó",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "813569-MLA80303989167_102024",
+        "787387-MLA80048587060_102024",
+        "702341-MLA80303949545_102024"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 185977001977,
+      "price": 14999,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": "283158",
+          "value_name": "Verde musgo",
+          "values": [
+            {
+              "id": "283158",
+              "name": "Verde musgo",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "FABRIC_DESIGN",
+          "name": "Diseño de la tela",
+          "value_id": "930483",
+          "value_name": "Lisa",
+          "values": [
+            {
+              "id": "930483",
+              "name": "Lisa",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        },
+        {
+          "id": "SIZE",
+          "name": "Talle",
+          "value_id": "3189161",
+          "value_name": "50",
+          "values": [
+            {
+              "id": "3189161",
+              "name": "50",
+              "struct": null
+            }
+          ],
+          "value_type": "string"
+        }
+      ],
+      "sale_terms": [],
+      "picture_ids": [
+        "662625-MLA80303860995_102024",
+        "922557-MLA80048449838_102024",
+        "938358-MLA80048707396_102024"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "certified_quality_thumbnail",
+    "loyalty_discount_eligible",
+    "brand_verified",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantía del vendedor: 3 meses",
+  "catalog_product_id": null,
+  "domain_id": "MLA-SHIRTS",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2018-07-19T15:02:35.000Z",
+  "last_updated": "2025-03-14T14:42:18.265Z",
+  "health": 0.72,
+  "catalog_listing": false
+}

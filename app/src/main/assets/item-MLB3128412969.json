@@ -1,0 +1,519 @@
+{
+  "id": "MLB3128412969",
+  "site_id": "MLB",
+  "title": "Café Torrado E Moído A Vácuo Tradicional Pacote 500g 3 Corações",
+  "seller_id": 1188362425,
+  "category_id": "MLB247538",
+  "official_store_id": 4996,
+  "price": 29.9,
+  "base_price": 29.9,
+  "original_price": null,
+  "currency_id": "BRL",
+  "initial_quantity": 50341,
+  "sale_terms": [
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Quantidade máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tempo de garantia",
+      "value_id": null,
+      "value_name": "0 meses",
+      "value_struct": {
+        "number": 0,
+        "unit": "meses"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "0 meses",
+          "struct": {
+            "number": 0,
+            "unit": "meses"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantia",
+      "value_id": "2230279",
+      "value_name": "Garantia de fábrica",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230279",
+          "name": "Garantia de fábrica",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://produto.mercadolivre.com.br/MLB-3128412969-cafe-torrado-e-moido-a-vacuo-tradicional-pacote-500g-3-coracoes-_JM",
+  "thumbnail_id": "915891-MLU72341214315_102023",
+  "thumbnail": "http://http2.mlstatic.com/D_915891-MLU72341214315_102023-I.jpg",
+  "pictures": [
+    {
+      "id": "915891-MLU72341214315_102023",
+      "url": "http://http2.mlstatic.com/D_915891-MLU72341214315_102023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_915891-MLU72341214315_102023-O.jpg",
+      "size": "269x500",
+      "max_size": "647x1200",
+      "quality": ""
+    },
+    {
+      "id": "789536-MLU72277074990_102023",
+      "url": "http://http2.mlstatic.com/D_789536-MLU72277074990_102023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_789536-MLU72277074990_102023-O.jpg",
+      "size": "480x500",
+      "max_size": "1152x1200",
+      "quality": ""
+    },
+    {
+      "id": "779280-MLU71274517719_082023",
+      "url": "http://http2.mlstatic.com/D_779280-MLU71274517719_082023-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_779280-MLU71274517719_082023-O.jpg",
+      "size": "173x500",
+      "max_size": "387x1118",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "QlItU1BDYWphbWFy",
+      "name": "Cajamar"
+    },
+    "state": {
+      "id": "BR-SP",
+      "name": "São Paulo"
+    },
+    "country": {
+      "id": "BR",
+      "name": "Brasil"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TVhYSm9yZGFuw6lzaWFUVmhZUTJGcVlXMWhjb",
+        "name": "Jordanésia"
+      },
+      "city": {
+        "id": "TVhYQ2FqYW1hclRVeENVRk5CVDA4NU4yRTQ",
+        "name": "Cajamar"
+      },
+      "state": {
+        "id": "TUxCUFNBT085N2E4",
+        "name": "São Paulo"
+      }
+    },
+    "id": 1254171362
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "3636730",
+      "value_name": "3 Corações",
+      "values": [
+        {
+          "id": "3636730",
+          "name": "3 Corações",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "COFFEE_FORMAT",
+      "name": "Formato do café",
+      "value_id": "8859027",
+      "value_name": "Moído",
+      "values": [
+        {
+          "id": "8859027",
+          "name": "Moído",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "COFFEE_TYPE",
+      "name": "Tipo de café",
+      "value_id": "8859028",
+      "value_name": "Torrado",
+      "values": [
+        {
+          "id": "8859028",
+          "name": "Torrado",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "FOODS_AND_DRINKS",
+      "name": "Alimentos e bebidas",
+      "value_id": "7575926",
+      "value_name": "Para humanos",
+      "values": [
+        {
+          "id": "7575926",
+          "name": "Para humanos",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "IS_DECAFFEINATED",
+      "name": "É descafeinado",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_KIT",
+      "name": "É kit",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_TAC_FREE",
+      "name": "É livre de TACC",
+      "value_id": "242085",
+      "value_name": "Sim",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sim",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condição do item",
+      "value_id": "2230284",
+      "value_name": "Novo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Novo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Linha",
+      "value_id": "20492663",
+      "value_name": "Tradicionais",
+      "values": [
+        {
+          "id": "20492663",
+          "name": "Tradicionais",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "38999762",
+      "value_name": "Café torrado e moído a vácuo tradicional pacote 500g 3 Corações",
+      "values": [
+        {
+          "id": "38999762",
+          "name": "Café torrado e moído a vácuo tradicional pacote 500g 3 Corações",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": "2539783",
+      "value_name": "Tradicional",
+      "values": [
+        {
+          "id": "2539783",
+          "name": "Tradicional",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura da embalagem",
+      "value_id": null,
+      "value_name": "20 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "20 cm",
+          "struct": {
+            "number": 20,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Comprimento da embalagem",
+      "value_id": null,
+      "value_name": "10.1 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "10.1 cm",
+          "struct": {
+            "number": 10.1,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso da embalagem",
+      "value_id": null,
+      "value_name": "510 g",
+      "values": [
+        {
+          "id": null,
+          "name": "510 g",
+          "struct": {
+            "number": 510,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Largura da embalagem",
+      "value_id": null,
+      "value_name": "6.4 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "6.4 cm",
+          "struct": {
+            "number": 6.4,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservação do produto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características do produto",
+      "value_id": "7435888",
+      "value_name": "Com validade",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Com validade",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venda",
+      "value_id": "1359391",
+      "value_name": "Unidade",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidade",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SELLER_SKU",
+      "name": "SKU",
+      "value_id": null,
+      "value_name": "6298117",
+      "values": [
+        {
+          "id": null,
+          "name": "6298117",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalagem do envío",
+      "value_id": "7435892",
+      "value_name": "Caixa",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caixa",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "TOASTED_LEVEL",
+      "name": "Nível de torrado",
+      "value_id": "3202199",
+      "value_name": "Médio",
+      "values": [
+        {
+          "id": "3202199",
+          "name": "Médio",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por kit",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "UNIT_WEIGHT",
+      "name": "Peso da unidade",
+      "value_id": "135526",
+      "value_name": "500 g",
+      "values": [
+        {
+          "id": "135526",
+          "name": "500 g",
+          "struct": {
+            "number": 500,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "WITH_EXPIRATION_DATE",
+      "name": "Com data de validade",
+      "value_id": "242085",
+      "value_name": "Sim",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sim",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "supermarket_eligible",
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": "Garantia de fábrica: 0 meses",
+  "catalog_product_id": "MLB24303532",
+  "domain_id": "MLB-GROUND_AND_WHOLE_BEANS_COFFEE",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2023-01-12T19:00:03.000Z",
+  "last_updated": "2025-03-14T19:58:21.391Z",
+  "health": null,
+  "catalog_listing": true
+}

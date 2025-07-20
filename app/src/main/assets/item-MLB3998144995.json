@@ -1,0 +1,596 @@
+{
+  "id": "MLB3998144995",
+  "site_id": "MLB",
+  "title": "Café Torrado E Moído Tradicional Caixa 500g Melitta",
+  "seller_id": 1188362425,
+  "category_id": "MLB247537",
+  "official_store_id": 4996,
+  "price": 29.69,
+  "base_price": 29.69,
+  "original_price": null,
+  "currency_id": "BRL",
+  "initial_quantity": 16765,
+  "sale_terms": [
+    {
+      "id": "WARRANTY_TIME",
+      "name": "Tempo de garantia",
+      "value_id": null,
+      "value_name": "0 meses",
+      "value_struct": {
+        "number": 0,
+        "unit": "meses"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "0 meses",
+          "struct": {
+            "number": 0,
+            "unit": "meses"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PURCHASE_MAX_QUANTITY",
+      "name": "Quantidade máxima de compra",
+      "value_id": null,
+      "value_name": "15",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "15",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "WARRANTY_TYPE",
+      "name": "Tipo de garantia",
+      "value_id": "2230279",
+      "value_name": "Garantia de fábrica",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230279",
+          "name": "Garantia de fábrica",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    }
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "condition": "new",
+  "permalink": "https://produto.mercadolivre.com.br/MLB-3998144995-cafe-torrado-e-moido-tradicional-caixa-500g-melitta-_JM",
+  "thumbnail_id": "779641-MLU74246729477_012024",
+  "thumbnail": "http://http2.mlstatic.com/D_779641-MLU74246729477_012024-I.jpg",
+  "pictures": [
+    {
+      "id": "779641-MLU74246729477_012024",
+      "url": "http://http2.mlstatic.com/D_779641-MLU74246729477_012024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_779641-MLU74246729477_012024-O.jpg",
+      "size": "305x500",
+      "max_size": "732x1200",
+      "quality": ""
+    },
+    {
+      "id": "716870-MLU78894566783_092024",
+      "url": "http://http2.mlstatic.com/D_716870-MLU78894566783_092024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_716870-MLU78894566783_092024-O.jpg",
+      "size": "340x500",
+      "max_size": "742x1090",
+      "quality": ""
+    },
+    {
+      "id": "939469-MLU78659870462_092024",
+      "url": "http://http2.mlstatic.com/D_939469-MLU78659870462_092024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_939469-MLU78659870462_092024-O.jpg",
+      "size": "500x455",
+      "max_size": "1200x1094",
+      "quality": ""
+    },
+    {
+      "id": "874581-MLU78659870470_092024",
+      "url": "http://http2.mlstatic.com/D_874581-MLU78659870470_092024-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_874581-MLU78659870470_092024-O.jpg",
+      "size": "333x500",
+      "max_size": "586x879",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "me2",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "fulfillment",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "QlItU1BDYWphbWFy",
+      "name": "Cajamar"
+    },
+    "state": {
+      "id": "BR-SP",
+      "name": "São Paulo"
+    },
+    "country": {
+      "id": "BR",
+      "name": "Brasil"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TVhYSm9yZGFuw6lzaWFUVmhZUTJGcVlXMWhjb",
+        "name": "Jordanésia"
+      },
+      "city": {
+        "id": "TVhYQ2FqYW1hclRVeENVRk5CVDA4NU4yRTQ",
+        "name": "Cajamar"
+      },
+      "state": {
+        "id": "TUxCUFNBT085N2E4",
+        "name": "São Paulo"
+      }
+    },
+    "id": 1254171362
+  },
+  "seller_contact": null,
+  "location": {},
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "513351",
+      "value_name": "Melitta",
+      "values": [
+        {
+          "id": "513351",
+          "name": "Melitta",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "FLAVOR",
+      "name": "Sabor",
+      "value_id": "9095811",
+      "value_name": "Tradicional",
+      "values": [
+        {
+          "id": "9095811",
+          "name": "Tradicional",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "FOODS_AND_DRINKS",
+      "name": "Alimentos e bebidas",
+      "value_id": "7575926",
+      "value_name": "Para humanos",
+      "values": [
+        {
+          "id": "7575926",
+          "name": "Para humanos",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "INSTANT_COFFEE_TYPE",
+      "name": "Tipo de café solúvel",
+      "value_id": "41934518",
+      "value_name": "Moído",
+      "values": [
+        {
+          "id": "41934518",
+          "name": "Moído",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "IS_DECAFFEINATED",
+      "name": "É descafeinado",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_DIET_PRODUCT",
+      "name": "É produto dietético",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_GLUTEN_FREE",
+      "name": "É livre de glúten",
+      "value_id": "242085",
+      "value_name": "Sim",
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sim",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_KIT",
+      "name": "É kit",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_ORGANIC_PRODUCT",
+      "name": "É produto orgânico",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "IS_ROASTED",
+      "name": "É torrefacto",
+      "value_id": "242084",
+      "value_name": "Não",
+      "values": [
+        {
+          "id": "242084",
+          "name": "Não",
+          "struct": null
+        }
+      ],
+      "value_type": "boolean"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condição do item",
+      "value_id": "2230284",
+      "value_name": "Novo",
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Novo",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "LINE",
+      "name": "Linha",
+      "value_id": "21538800",
+      "value_name": "Café Tradicional",
+      "values": [
+        {
+          "id": "21538800",
+          "name": "Café Tradicional",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MANUAL_TITLE",
+      "name": "Título manual",
+      "value_id": "41935378",
+      "value_name": "Café Torrado e Moído Tradicional Caixa 500g Melitta",
+      "values": [
+        {
+          "id": "41935378",
+          "name": "Café Torrado e Moído Tradicional Caixa 500g Melitta",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": "20439890",
+      "value_name": "Café Torrado e Moído",
+      "values": [
+        {
+          "id": "20439890",
+          "name": "Café Torrado e Moído",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "ORIGIN",
+      "name": "Origem",
+      "value_id": "97214",
+      "value_name": "Brasil",
+      "values": [
+        {
+          "id": "97214",
+          "name": "Brasil",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PACKAGE_HEIGHT",
+      "name": "Altura da embalagem",
+      "value_id": null,
+      "value_name": "18.8 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "18.8 cm",
+          "struct": {
+            "number": 18.8,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_LENGTH",
+      "name": "Comprimento da embalagem",
+      "value_id": null,
+      "value_name": "10.9 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "10.9 cm",
+          "struct": {
+            "number": 10.9,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WEIGHT",
+      "name": "Peso da embalagem",
+      "value_id": null,
+      "value_name": "540 g",
+      "values": [
+        {
+          "id": null,
+          "name": "540 g",
+          "struct": {
+            "number": 540,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGE_WIDTH",
+      "name": "Largura da embalagem",
+      "value_id": null,
+      "value_name": "7.1 cm",
+      "values": [
+        {
+          "id": null,
+          "name": "7.1 cm",
+          "struct": {
+            "number": 7.1,
+            "unit": "cm"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    },
+    {
+      "id": "PACKAGING_TYPE",
+      "name": "Tipo de embalagem",
+      "value_id": "131493",
+      "value_name": "Caixa",
+      "values": [
+        {
+          "id": "131493",
+          "name": "Caixa",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "PRODUCT_CONSERVATION",
+      "name": "Conservação do produto",
+      "value_id": "10792872",
+      "value_name": "Temperatura ambiente",
+      "values": [
+        {
+          "id": "10792872",
+          "name": "Temperatura ambiente",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "PRODUCT_FEATURES",
+      "name": "Características do produto",
+      "value_id": null,
+      "value_name": "Com validade,Não voável",
+      "values": [
+        {
+          "id": "7435888",
+          "name": "Com validade",
+          "struct": null
+        },
+        {
+          "id": "10490116",
+          "name": "Não voável",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SALE_FORMAT",
+      "name": "Formato de venda",
+      "value_id": "1359391",
+      "value_name": "Unidade",
+      "values": [
+        {
+          "id": "1359391",
+          "name": "Unidade",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "SELLER_SKU",
+      "name": "SKU",
+      "value_id": null,
+      "value_name": "295957",
+      "values": [
+        {
+          "id": null,
+          "name": "295957",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "SHIPMENT_PACKING",
+      "name": "Embalagem do envío",
+      "value_id": "7435892",
+      "value_name": "Caixa",
+      "values": [
+        {
+          "id": "7435892",
+          "name": "Caixa",
+          "struct": null
+        }
+      ],
+      "value_type": "list"
+    },
+    {
+      "id": "TOASTED_LEVEL",
+      "name": "Nível de torrado",
+      "value_id": "40742659",
+      "value_name": "Intenso",
+      "values": [
+        {
+          "id": "40742659",
+          "name": "Intenso",
+          "struct": null
+        }
+      ],
+      "value_type": "string"
+    },
+    {
+      "id": "UNITS_PER_PACK",
+      "name": "Unidades por kit",
+      "value_id": "2726554",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "2726554",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "UNITS_PER_PACKAGE",
+      "name": "Unidades por embalagem",
+      "value_id": "7386989",
+      "value_name": "1",
+      "values": [
+        {
+          "id": "7386989",
+          "name": "1",
+          "struct": null
+        }
+      ],
+      "value_type": "number"
+    },
+    {
+      "id": "UNIT_WEIGHT",
+      "name": "Peso da unidade",
+      "value_id": "8184",
+      "value_name": "500 g",
+      "values": [
+        {
+          "id": "8184",
+          "name": "500 g",
+          "struct": {
+            "number": 500,
+            "unit": "g"
+          }
+        }
+      ],
+      "value_type": "number_unit"
+    }
+  ],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": ["supermarket_eligible", "immediate_payment", "cart_eligible"],
+  "warranty": "Garantia de fábrica: 0 meses",
+  "catalog_product_id": "MLB18393188",
+  "domain_id": "MLB-INSTANT_COFFEE",
+  "parent_item_id": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2025-03-10T11:56:34.796Z",
+  "last_updated": "2025-03-14T19:55:20.202Z",
+  "health": null,
+  "catalog_listing": true
+}
