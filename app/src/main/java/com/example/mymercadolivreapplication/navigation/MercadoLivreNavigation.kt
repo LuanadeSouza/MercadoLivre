@@ -5,10 +5,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mymercadolivreapplication.ui.ProductDetailScreen
-import com.example.mymercadolivreapplication.ui.SearchResultsScreen
+import com.example.mymercadolivreapplication.ui.detail.ProductDetailScreen
+import com.example.mymercadolivreapplication.ui.result.SearchResultsScreen
 import com.example.mymercadolivreapplication.ui.splash.SplashScreen
-import com.example.mymercadolivreapplication.ui.SearchScreen
+import com.example.mymercadolivreapplication.ui.search.SearchScreen
 
 /**
  * Navigation system for the application using Navigation Compose.
