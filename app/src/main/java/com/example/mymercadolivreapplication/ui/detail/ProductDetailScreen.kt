@@ -48,8 +48,11 @@ import com.example.mymercadolivreapplication.data.model.Picture
 import com.example.mymercadolivreapplication.data.model.ProductDetail
 import com.example.mymercadolivreapplication.data.model.Shipping
 import com.example.mymercadolivreapplication.ui.result.formatPrice
+import com.example.mymercadolivreapplication.ui.theme.BlackCustom
 import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
+import com.example.mymercadolivreapplication.ui.theme.PurpleGrey40
+import com.example.mymercadolivreapplication.ui.theme.YellowCustom
 import java.util.Locale
 
 /**
@@ -74,7 +77,16 @@ fun ProductDetailScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(text = stringResource(id = R.string.product_details)) },
+                title = {
+                    val productDetailDescription = stringResource(id = R.string.product_details)
+                    Text(
+                        text = productDetailDescription,
+                        modifier = Modifier.semantics {
+                            contentDescription = productDetailDescription
+                        }
+                    )
+
+                },
                 navigationIcon = {
                     IconButton(
                         onClick = {
@@ -83,14 +95,14 @@ fun ProductDetailScreen(
                         }) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = stringResource(id = R.string.back)
+                            contentDescription = stringResource(id = R.string.back_description)
                         )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.primary,
-                    titleContentColor = MaterialTheme.colorScheme.onPrimary,
-                    navigationIconContentColor = MaterialTheme.colorScheme.onPrimary
+                    containerColor = YellowCustom,
+                    titleContentColor = BlackCustom,
+                    navigationIconContentColor = BlackCustom
                 )
             )
         }
@@ -113,6 +125,9 @@ fun ProductDetailScreen(
                 viewState.errorMessage != null -> {
                     Text(
                         text = viewState.errorMessage!!,
+                        modifier = Modifier.semantics {
+                            contentDescription = "Erro: ${viewState.errorMessage}"
+                        },
                         color = MaterialTheme.colorScheme.error,
                         style = MaterialTheme.typography.bodyLarge
                     )
@@ -150,7 +165,6 @@ fun ProductDetailContent(product: ProductDetail) {
         Text(
             text = product.title,
             style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .padding(bottom = 8.dp)
                 .semantics { contentDescription = "Product title: ${product.title}" }
@@ -184,16 +198,26 @@ fun ProductDetailContent(product: ProductDetail) {
                 .padding(bottom = 8.dp)
                 .semantics {
                     contentDescription =
-                        "Price of product: ${formatPrice(product.price, product.currencyId)}"
+                        "Price of product: ${
+                            formatPrice(
+                                product.price,
+                                product.currencyId
+                            )
+                        }"
                 }
         )
 
         // Condition and Quantity
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
             Text(
-                text = "Condition: ${product.condition.replaceFirstChar {
-                    if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString()
-                }}",
+                text = "Condition: ${
+                    product.condition.replaceFirstChar {
+                        if (it.isLowerCase()) it.titlecase(Locale.ROOT) else it.toString()
+                    }
+                }",
                 style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.semantics {
                     contentDescription = "Product condition: ${product.condition}"

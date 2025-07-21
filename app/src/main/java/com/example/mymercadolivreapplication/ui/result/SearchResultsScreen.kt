@@ -48,7 +48,9 @@ import com.example.mymercadolivreapplication.R
 import com.example.mymercadolivreapplication.data.model.Product
 import com.example.mymercadolivreapplication.data.model.Shipping
 import com.example.mymercadolivreapplication.ui.search.SearchViewModel
+import com.example.mymercadolivreapplication.ui.theme.BlackCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
+import com.example.mymercadolivreapplication.ui.theme.YellowCustom
 import java.text.NumberFormat
 import java.util.Locale
 
@@ -83,21 +85,21 @@ fun SearchResultsScreen(
                         text = "Resultados para \"$query\"",
                         modifier = Modifier.semantics {
                             contentDescription = "Resultados para a pesquisa: $query"
-                        } // contentDescription for title
+                        }
                     )
                 },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = stringResource(id = R.string.back)
+                            contentDescription = stringResource(id = R.string.back_description)
                         )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.primary,
-                    titleContentColor = MaterialTheme.colorScheme.onPrimary,
-                    navigationIconContentColor = MaterialTheme.colorScheme.onPrimary
+                    containerColor = YellowCustom,
+                    titleContentColor = BlackCustom,
+                    navigationIconContentColor = BlackCustom
                 )
             )
         }
