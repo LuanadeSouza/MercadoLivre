@@ -43,9 +43,9 @@ fun SplashScreen(onTimeout: () -> Unit) {
         // Displays the logo image of the app
         Image(
             modifier = Modifier
-                .fillMaxSize(), // Image takes up the entire screen
-            painter = painterResource(id = R.drawable.mqdefault), // Default launcher icon
-            contentDescription = stringResource(id = R.string.image_description_logo), // Describes the image for accessibility
+                .fillMaxSize(),
+            painter = painterResource(id = R.drawable.mqdefault),
+            contentDescription = stringResource(id = R.string.image_description_logo),
         )
     }
 }
