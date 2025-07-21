@@ -61,6 +61,8 @@ data class Product(
     val title: String,
     @SerializedName("price")
     val price: Double,
+    @SerializedName("original_price")
+    val originalPrice: Double?,
     @SerializedName("currency_id")
     val currencyId: String,
     @SerializedName("available_quantity")
@@ -115,4 +117,5 @@ data class Attribute(
     @SerializedName("value_name")
     val valueName: String?
 )
+
 

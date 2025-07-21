@@ -41,7 +41,7 @@ val Typography = Typography(
         fontFamily = MontserratFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
-        lineHeight = 24.sp, // Definindo o espaçamento entre linhas
+        lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     ),
     bodyMedium = TextStyle(
@@ -73,5 +73,9 @@ val Typography = Typography(
     labelSmall = TextStyle(
         fontFamily = MontserratFontFamily,
         fontSize = 10.sp,
+    ),
+    displaySmall = TextStyle(
+        fontFamily = MontserratFontFamily,
+        fontSize = 8.sp,
     )
 )
