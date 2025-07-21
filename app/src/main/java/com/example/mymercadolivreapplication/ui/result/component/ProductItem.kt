@@ -147,7 +147,7 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     Text(
                         text = formatPrice(product.price, product.currencyId),
                         style = Typography.labelMedium,
-                        fontWeight = FontWeight.Bold, 
+                        fontWeight = FontWeight.Bold,
                         modifier = Modifier.semantics {
                             contentDescription =
                                 "Preço promocional: ${
