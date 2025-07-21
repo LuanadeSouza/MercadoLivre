@@ -4,8 +4,7 @@ import androidx.compose.ui.graphics.Color
 
 val YellowCustom = Color(0xFFFFE600)
 val GreenCustom = Color(0xFF00A650)
-val BlackCustom = Color(0xFF333333)
-
+val DarkGray = Color(0xFF333333)
 
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)

@@ -48,10 +48,9 @@ import com.example.mymercadolivreapplication.data.model.Picture
 import com.example.mymercadolivreapplication.data.model.ProductDetail
 import com.example.mymercadolivreapplication.data.model.Shipping
 import com.example.mymercadolivreapplication.ui.result.formatPrice
-import com.example.mymercadolivreapplication.ui.theme.BlackCustom
+import com.example.mymercadolivreapplication.ui.theme.DarkGray
 import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
-import com.example.mymercadolivreapplication.ui.theme.PurpleGrey40
 import com.example.mymercadolivreapplication.ui.theme.YellowCustom
 import java.util.Locale
 
@@ -101,8 +100,8 @@ fun ProductDetailScreen(
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = YellowCustom,
-                    titleContentColor = BlackCustom,
-                    navigationIconContentColor = BlackCustom
+                    titleContentColor = DarkGray,
+                    navigationIconContentColor = DarkGray
                 )
             )
         }

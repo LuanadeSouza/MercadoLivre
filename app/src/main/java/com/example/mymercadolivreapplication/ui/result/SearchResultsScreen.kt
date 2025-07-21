@@ -1,16 +1,16 @@
 package com.example.mymercadolivreapplication.ui.result
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
@@ -31,12 +31,12 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -48,9 +48,11 @@ import com.example.mymercadolivreapplication.R
 import com.example.mymercadolivreapplication.data.model.Product
 import com.example.mymercadolivreapplication.data.model.Shipping
 import com.example.mymercadolivreapplication.ui.search.SearchViewModel
-import com.example.mymercadolivreapplication.ui.theme.BlackCustom
+import com.example.mymercadolivreapplication.ui.theme.DarkGray
+import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.YellowCustom
+import com.example.mymercadolivreapplication.ui.theme.Typography
 import java.text.NumberFormat
 import java.util.Locale
 
@@ -98,8 +100,8 @@ fun SearchResultsScreen(
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = YellowCustom,
-                    titleContentColor = BlackCustom,
-                    navigationIconContentColor = BlackCustom
+                    titleContentColor = DarkGray,
+                    navigationIconContentColor = DarkGray
                 )
             )
         }
@@ -128,9 +130,10 @@ fun SearchResultsScreen(
                     Text(
                         text = viewState.errorMessage!!,
                         color = MaterialTheme.colorScheme.error,
-                        style = MaterialTheme.typography.bodyLarge,
+                        style = Typography.bodyLarge,
                         modifier = Modifier.semantics {
-                            contentDescription = "Erro ao carregar os resultados: ${viewState.errorMessage!!}"
+                            contentDescription =
+                                "Erro ao carregar os resultados: ${viewState.errorMessage!!}"
                         }
                     )
                 }
@@ -138,7 +141,7 @@ fun SearchResultsScreen(
                 viewState.showNoResults -> {
                     Text(
                         text = stringResource(id = R.string.no_results),
-                        style = MaterialTheme.typography.bodyLarge,
+                        style = Typography.bodyLarge,
                         modifier = Modifier.semantics {
                             contentDescription = "Nenhum resultado encontrado para a pesquisa."
                         }
@@ -188,52 +191,58 @@ fun SearchResultsScreen(
 fun ProductItem(product: Product, onClick: () -> Unit) {
     Card(
         modifier = Modifier
-            .fillMaxWidth()
+            .width(150.dp)
+            .height(300.dp)
             .clickable(onClick = onClick)
+            .background(Color.White)
             .semantics {
-                contentDescription = "Produto: ${product.title}, Preço: ${formatPrice(product.price, product.currencyId)}"
+                contentDescription = "Produto: ${product.title}, Preço: ${
+                    formatPrice(
+                        product.price,
+                        product.currencyId
+                    )
+                }"
             }
     ) {
-        Row(
+        Column(
             modifier = Modifier.padding(8.dp),
-            verticalAlignment = Alignment.CenterVertically
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
             GlideImage(
                 model = product.thumbnail,
                 contentDescription = stringResource(id = R.string.product_details) + ": ${product.title}",
-                modifier = Modifier.size(80.dp),
+                modifier = Modifier.size(100.dp),
                 contentScale = ContentScale.Fit
             )
-            Spacer(modifier = Modifier.size(8.dp))
             Column(
                 modifier = Modifier.weight(1f)
             ) {
                 Text(
                     text = product.title,
-                    style = MaterialTheme.typography.titleMedium,
+                    style = Typography.labelSmall,
                     maxLines = 2,
-                    overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.semantics {
                         contentDescription = "Título do produto: ${product.title}"
-                    } // contentDescription for product title
+                    }
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
                     text = formatPrice(product.price, product.currencyId),
-                    style = MaterialTheme.typography.bodyLarge,
+                    style = Typography.labelSmall,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.semantics {
-                        contentDescription = "Preço do produto: ${formatPrice(product.price, product.currencyId)}"
-                    } // contentDescription for price
-                )
+                        contentDescription =
+                            "Preço do produto: ${formatPrice(product.price, product.currencyId)}"
+                    }              )
                 if (product.shipping?.freeShipping == true) {
                     Text(
                         text = stringResource(id = R.string.free_shipping),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.tertiary,
+                        style = Typography.labelSmall,
+                        color = GreenCustom,
                         modifier = Modifier.semantics {
                             contentDescription = "Frete grátis disponível para o produto"
-                        } // contentDescription for free shipping
+                        }
                     )
                 }
             }
@@ -277,7 +286,7 @@ fun ProductItemPreview() {
                 price = 5999.99,
                 currencyId = "BRL",
                 availableQuantity = 10,
-                thumbnail = "https://http2.mlstatic.com/D_NQ_NP_2X_686906-MLA54967397940_042023-F.webp",
+                thumbnail = "@drawable/ic_launcher_background",
                 condition = "new",
                 shipping = Shipping(freeShipping = true),
                 seller = null,
