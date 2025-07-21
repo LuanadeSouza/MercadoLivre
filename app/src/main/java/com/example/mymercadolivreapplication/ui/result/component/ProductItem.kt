@@ -41,62 +41,63 @@ import java.text.NumberFormat
 import java.util.Locale
 import kotlin.math.roundToInt
 
-
 /**
- * Component for a product item in the results list.
+ * Composable function to display a product item.
+ * It includes the product image, title, price, original price (if available),
+ * available quantity, and a rating based on the available quantity.
  *
  * Why Card?
- * - Provides an elevated surface to group related content.
- * - Enhances the visual and tactile experience.
+ * - Provides an elevated surface that groups related content, enhancing the visual experience.
+ * - Allows for a clickable interaction, enabling navigation to product details.
  *
  * Why GlideImage?
- * - Optimized library for loading and displaying images on Android.
- * - Manages caching, resizing, and placeholders automatically.
+ * - Optimized for loading and displaying images in Android.
+ * - Manages caching, resizing, and placeholders automatically for smooth performance.
  *
  * Accessibility:
- * - `contentDescription` for the product image for screen readers.
- * - Price formatting using `NumberFormat` to ensure correct localization.
+ * - Uses `contentDescription` for product image, ensuring accessibility for screen readers.
+ * - Price formatting is handled by `NumberFormat`, ensuring proper localization for different currencies.
  */
 @OptIn(ExperimentalGlideComposeApi::class)
 @Composable
 fun ProductItem(product: Product, onClick: () -> Unit) {
     Card(
         modifier = Modifier
-            .width(150.dp)
-            .height(270.dp)
-            .clickable(onClick = onClick)
+            .width(150.dp) // Set card width
+            .height(270.dp) // Set card height
+            .clickable(onClick = onClick) // Make the card clickable to navigate to product details
             .semantics {
                 contentDescription = "Produto: ${product.title}, Preço: ${
                     formatPrice(
                         product.price,
                         product.currencyId
                     )
-                }"
+                }" // Adding semantic content description for accessibility
             },
-        colors = CardDefaults.cardColors(containerColor = Color.White)
+        colors = CardDefaults.cardColors(containerColor = Color.White) // Set card background color
     ) {
         Column(
             modifier = Modifier
-                .padding(8.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-            horizontalAlignment = Alignment.CenterHorizontally
+                .padding(8.dp), // Add padding around the column
+            verticalArrangement = Arrangement.spacedBy(8.dp), // Add spacing between the items
+            horizontalAlignment = Alignment.CenterHorizontally // Align content horizontally in the center
         ) {
 
             GlideImage(
-                model = product.thumbnail,
-                contentDescription = stringResource(id = R.string.product_details) + ": ${product.title}",
-                modifier = Modifier.size(140.dp),
-                contentScale = ContentScale.Fit
+                model = product.thumbnail, // Set image model
+                contentDescription = stringResource(id = R.string.product_details) + ": ${product.title}", // Set content description for accessibility
+                modifier = Modifier.size(140.dp), // Set image size
+                contentScale = ContentScale.Fit // Ensure the image fits the view without distortion
             )
 
             Column(
-                modifier = Modifier.weight(1f)
+                modifier = Modifier.weight(1f) // Make the column take the available space
             ) {
 
                 Text(
-                    text = product.title,
+                    text = product.title, // Display product title
                     style = Typography.labelSmall,
-                    maxLines = 2,
+                    maxLines = 2, // Limit the title to two lines
                     modifier = Modifier.semantics {
                         contentDescription = "Título do produto: ${product.title}"
                     }
@@ -104,14 +105,14 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
 
                 Spacer(modifier = Modifier.height(4.dp))
 
-                // Exibindo o campo availableQuantity
+
                 Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                    verticalAlignment = Alignment.CenterVertically, // Align items vertically in the center
+                    horizontalArrangement = Arrangement.spacedBy(4.dp) // Space between the stars and the quantity
                 ) {
-                    RatingStars(availableQuantity = product.availableQuantity) // Estrelas
+                    RatingStars(availableQuantity = product.availableQuantity) // Display rating stars
                     Text(
-                        text = "(${product.availableQuantity})", // Quantidade de avaliações
+                        text = "(${product.availableQuantity})", // Display the available quantity
                         style = Typography.displaySmall,
                         modifier = Modifier
                             .semantics {
@@ -120,15 +121,15 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     )
                 }
 
+                Spacer(modifier = Modifier.height(4.dp)) // Add spacing before displaying the prices
 
-                Spacer(modifier = Modifier.height(4.dp))
-
+                // If original price exists, display it with a strikethrough decoration
                 product.originalPrice?.let {
                     Text(
-                        text = formatPrice(product.originalPrice, product.currencyId),
+                        text = formatPrice(product.originalPrice, product.currencyId), // Format and display original price
                         style = Typography.labelSmall,
-                        fontWeight = FontWeight.Normal,
-                        textDecoration = TextDecoration.LineThrough, // Riscando o preço original
+                        fontWeight = FontWeight.Normal, // Set normal font weight
+                        textDecoration = TextDecoration.LineThrough, // Apply strikethrough decoration for original price
                         modifier = Modifier.semantics {
                             contentDescription =
                                 "Preço original: ${formatPrice(product.price, product.currencyId)}"
@@ -136,34 +137,31 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     )
                 }
 
+                // Display promotional price and discount percentage
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                    horizontalArrangement = Arrangement.spacedBy(4.dp) // Add space between the price and discount
                 ) {
-                    // Exibe o preço promocional
+                    // Display promotional price
                     Text(
                         text = formatPrice(product.price, product.currencyId),
                         style = Typography.labelMedium,
-                        fontWeight = FontWeight.Bold,
+                        fontWeight = FontWeight.Bold, // Make the price bold
                         modifier = Modifier.semantics {
                             contentDescription =
-                                "Preço promocional: ${
-                                    formatPrice(
-                                        product.price,
-                                        product.currencyId
-                                    )
-                                }"
+                                "Preço promocional: ${formatPrice(product.price, product.currencyId)}"
                         }
                     )
 
+                    // If original price exists, calculate and display the discount percentage
                     product.originalPrice?.let { originalPrice ->
                         val discountPercentage =
-                            ((originalPrice - product.price) / originalPrice) * 100
+                            ((originalPrice - product.price) / originalPrice) * 100 // Calculate the discount percentage
 
                         Text(
-                            text = "${discountPercentage.roundToInt()}% OFF",
+                            text = "${discountPercentage.roundToInt()}% OFF", // Display the discount percentage
                             style = Typography.labelSmall,
-                            color = GreenCustom,
+                            color = GreenCustom, // Set the text color to green for the discount
                             modifier = Modifier.semantics {
                                 contentDescription =
                                     "Desconto de campanha: ${discountPercentage.roundToInt()}%"
@@ -172,13 +170,14 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     }
                 }
 
-                Spacer(modifier = Modifier.height(4.dp))
+                Spacer(modifier = Modifier.height(4.dp)) // Add spacing before the shipping info
 
+                // Display "Free Shipping" text if applicable
                 if (product.shipping?.freeShipping == true) {
                     Text(
                         text = stringResource(id = R.string.free_shipping),
                         style = Typography.labelMedium,
-                        color = GreenCustom,
+                        color = GreenCustom, // Set the text color to green for free shipping
                         modifier = Modifier.semantics {
                             contentDescription = "Frete grátis disponível para o produto"
                         }
@@ -191,52 +190,55 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
 }
 
 /**
- * Utility function to format price according to the currency and locale.
+ * Utility function to format the price according to the currency and locale.
+ * It ensures that the monetary value is formatted correctly based on the region and currency.
  *
  * Why use NumberFormat?
- * - Ensures correct formatting of monetary values for different regions.
- * - Automatically handles currency symbols, thousand separators, and decimals.
- * - Essential for accessibility and internationalization.
+ * - Automatically handles currency symbols, thousand separators, and decimal points.
+ * - Essential for correct localization and accessibility.
  */
 fun formatPrice(price: Double, currencyId: String): String {
-    val format = NumberFormat.getCurrencyInstance(Locale("pt", "BR")) // Example for BRL
+    val format = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))
     format.currency = java.util.Currency.getInstance(currencyId)
     return format.format(price)
 }
 
+/**
+ * Composable function to display rating stars based on available quantity.
+ * It displays a filled star or an outlined star depending on the number of available items.
+ *
+ * @param availableQuantity The available quantity of the product, used to determine how many stars should be filled.
+ */
 @Composable
 fun RatingStars(availableQuantity: Int) {
     val starsFilled = if (availableQuantity >= 10) {
-        5 // Preenche 5 estrelas se o número de avaliações for 10 ou mais
+        5
     } else {
-        (availableQuantity / 2).coerceAtMost(5) // Calcula estrelas proporcionais e garante que não ultrapasse 5
+        (availableQuantity / 2).coerceAtMost(5)
     }
 
     Row(
         horizontalArrangement = Arrangement.spacedBy(2.dp)
     ) {
-        // Preenche as estrelas de acordo com a avaliação
         for (i in 1..5) {
-            // Exibe estrela preenchida ou vazia, dependendo da avaliação
             if (i <= starsFilled) {
                 Icon(
-                    imageVector = Icons.Filled.Star, // Estrela preenchida
+                    imageVector = Icons.Filled.Star,
                     contentDescription = "Estrela $i",
-                    tint = BlueCustom, // Cor da estrela preenchida
+                    tint = BlueCustom,
                     modifier = Modifier.size(8.dp)
                 )
             } else {
                 Icon(
-                    imageVector = Icons.Outlined.Star, // Estrela vazia
+                    imageVector = Icons.Outlined.Star,
                     contentDescription = "Estrela $i",
-                    tint = Color.Gray, // Cor da estrela vazia
+                    tint = Color.Gray,
                     modifier = Modifier.size(8.dp)
                 )
             }
         }
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
@@ -259,4 +261,3 @@ fun ProductItemPreview() {
         ) {}
     }
 }
-
