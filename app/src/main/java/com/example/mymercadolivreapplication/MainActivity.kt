@@ -16,7 +16,8 @@ import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationT
 import dagger.hilt.android.AndroidEntryPoint
 
 /**
- * Main activity of the application.
+ * Main activity of the appl
+ * ;ç.;^^^~~~ication.
  * This is the entry point for the Android app and initializes the app UI and navigation.
  *
  * Why use @AndroidEntryPoint?
