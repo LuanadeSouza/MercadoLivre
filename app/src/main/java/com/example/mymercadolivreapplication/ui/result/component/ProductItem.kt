@@ -63,41 +63,41 @@ import kotlin.math.roundToInt
 fun ProductItem(product: Product, onClick: () -> Unit) {
     Card(
         modifier = Modifier
-            .width(150.dp) // Set card width
-            .height(270.dp) // Set card height
-            .clickable(onClick = onClick) // Make the card clickable to navigate to product details
+            .width(150.dp) 
+            .height(270.dp) 
+            .clickable(onClick = onClick) 
             .semantics {
                 contentDescription = "Produto: ${product.title}, Preço: ${
                     formatPrice(
                         product.price,
                         product.currencyId
                     )
-                }" // Adding semantic content description for accessibility
+                }" 
             },
-        colors = CardDefaults.cardColors(containerColor = Color.White) // Set card background color
+        colors = CardDefaults.cardColors(containerColor = Color.White)
     ) {
         Column(
             modifier = Modifier
-                .padding(8.dp), // Add padding around the column
-            verticalArrangement = Arrangement.spacedBy(8.dp), // Add spacing between the items
-            horizontalAlignment = Alignment.CenterHorizontally // Align content horizontally in the center
+                .padding(8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
             GlideImage(
-                model = product.thumbnail, // Set image model
-                contentDescription = stringResource(id = R.string.product_details) + ": ${product.title}", // Set content description for accessibility
-                modifier = Modifier.size(140.dp), // Set image size
-                contentScale = ContentScale.Fit // Ensure the image fits the view without distortion
+                model = product.thumbnail,
+                contentDescription = stringResource(id = R.string.product_details) + ": ${product.title}",
+                modifier = Modifier.size(140.dp),
+                contentScale = ContentScale.Fit
             )
 
             Column(
-                modifier = Modifier.weight(1f) // Make the column take the available space
+                modifier = Modifier.weight(1f)
             ) {
 
                 Text(
-                    text = product.title, // Display product title
+                    text = product.title,
                     style = Typography.labelSmall,
-                    maxLines = 2, // Limit the title to two lines
+                    maxLines = 2,
                     modifier = Modifier.semantics {
                         contentDescription = "Título do produto: ${product.title}"
                     }
@@ -107,12 +107,12 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
 
 
                 Row(
-                    verticalAlignment = Alignment.CenterVertically, // Align items vertically in the center
-                    horizontalArrangement = Arrangement.spacedBy(4.dp) // Space between the stars and the quantity
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
-                    RatingStars(availableQuantity = product.availableQuantity) // Display rating stars
+                    RatingStars(availableQuantity = product.availableQuantity)
                     Text(
-                        text = "(${product.availableQuantity})", // Display the available quantity
+                        text = "(${product.availableQuantity})",
                         style = Typography.displaySmall,
                         modifier = Modifier
                             .semantics {
@@ -121,15 +121,17 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     )
                 }
 
-                Spacer(modifier = Modifier.height(4.dp)) // Add spacing before displaying the prices
+                Spacer(modifier = Modifier.height(4.dp))
 
-                // If original price exists, display it with a strikethrough decoration
                 product.originalPrice?.let {
                     Text(
-                        text = formatPrice(product.originalPrice, product.currencyId), // Format and display original price
+                        text = formatPrice(
+                            product.originalPrice,
+                            product.currencyId
+                        ),
                         style = Typography.labelSmall,
-                        fontWeight = FontWeight.Normal, // Set normal font weight
-                        textDecoration = TextDecoration.LineThrough, // Apply strikethrough decoration for original price
+                        fontWeight = FontWeight.Normal,
+                        textDecoration = TextDecoration.LineThrough,
                         modifier = Modifier.semantics {
                             contentDescription =
                                 "Preço original: ${formatPrice(product.price, product.currencyId)}"
@@ -137,31 +139,34 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     )
                 }
 
-                // Display promotional price and discount percentage
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(4.dp) // Add space between the price and discount
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
-                    // Display promotional price
+
                     Text(
                         text = formatPrice(product.price, product.currencyId),
                         style = Typography.labelMedium,
-                        fontWeight = FontWeight.Bold, // Make the price bold
+                        fontWeight = FontWeight.Bold, 
                         modifier = Modifier.semantics {
                             contentDescription =
-                                "Preço promocional: ${formatPrice(product.price, product.currencyId)}"
+                                "Preço promocional: ${
+                                    formatPrice(
+                                        product.price,
+                                        product.currencyId
+                                    )
+                                }"
                         }
                     )
 
-                    // If original price exists, calculate and display the discount percentage
                     product.originalPrice?.let { originalPrice ->
                         val discountPercentage =
-                            ((originalPrice - product.price) / originalPrice) * 100 // Calculate the discount percentage
+                            ((originalPrice - product.price) / originalPrice) * 100
 
                         Text(
-                            text = "${discountPercentage.roundToInt()}% OFF", // Display the discount percentage
+                            text = "${discountPercentage.roundToInt()}% OFF",
                             style = Typography.labelSmall,
-                            color = GreenCustom, // Set the text color to green for the discount
+                            color = GreenCustom,
                             modifier = Modifier.semantics {
                                 contentDescription =
                                     "Desconto de campanha: ${discountPercentage.roundToInt()}%"
@@ -170,14 +175,13 @@ fun ProductItem(product: Product, onClick: () -> Unit) {
                     }
                 }
 
-                Spacer(modifier = Modifier.height(4.dp)) // Add spacing before the shipping info
+                Spacer(modifier = Modifier.height(4.dp))
 
-                // Display "Free Shipping" text if applicable
-                if (product.shipping?.freeShipping == true) {
+                 if (product.shipping?.freeShipping == true) {
                     Text(
                         text = stringResource(id = R.string.free_shipping),
                         style = Typography.labelMedium,
-                        color = GreenCustom, // Set the text color to green for free shipping
+                        color = GreenCustom, 
                         modifier = Modifier.semantics {
                             contentDescription = "Frete grátis disponível para o produto"
                         }
