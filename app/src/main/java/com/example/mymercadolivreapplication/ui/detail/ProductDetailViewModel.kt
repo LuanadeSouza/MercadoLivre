@@ -13,17 +13,24 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import java.io.IOException
 import java.util.Locale
 import javax.inject.Inject
 
 /**
- * ViewModel for the product details screen.
- * Manages the UI state and interacts with the repository to fetch product details.
+ * ViewModel responsible for managing the state and logic of the product detail screen.
  *
- * Follows the same principles as the SearchViewModel, but focuses on the details of a specific product.
+ * Core responsibilities:
+ * - Load product details from the local assets folder.
+ * - Handle loading, success, and error UI states.
+ * - Log analytics events via Firebase.
+ * - Reset state when navigating away.
+ *
+ * Usage:
+ * This ViewModel is lifecycle-aware and scoped to the product detail screen.
+ * It is initialized with the application context and the Firebase analytics manager
+ * through Hilt dependency injection.
  */
 @HiltViewModel
 class ProductDetailViewModel @Inject constructor(
@@ -31,14 +38,16 @@ class ProductDetailViewModel @Inject constructor(
     private val firebaseAnalyticsManager: FirebaseAnalyticsManager
 ) : ViewModel() {
 
-    // UI state for product details using ProductDetailViewState
+    /**
+     * Backing property for the current UI state.
+     * Exposes the state as an immutable [StateFlow] to observers.
+     */
     private val _viewState = MutableStateFlow(ProductDetailViewState())
     val viewState: StateFlow<ProductDetailViewState> = _viewState.asStateFlow()
 
     /**
-     * Loads the details of a specific product.
-     *
-     * @param productId The ID of the product to be loaded.
+     * Backing property for the current UI state.
+     * Exposes the state as an immutable [StateFlow] to observers.
      */
     fun loadProductDetail(productId: String) {
         viewModelScope.launch {
@@ -81,8 +90,9 @@ class ProductDetailViewModel @Inject constructor(
     }
 
     /**
-     * Clears the product detail state.
-     * Useful when navigating to a new product or leaving the screen.
+     * Resets the product detail UI state to its initial values.
+     *
+     * Useful when leaving the screen or navigating to a different product.
      */
     fun clearProductDetail() {
         _viewState.value = ProductDetailViewState()

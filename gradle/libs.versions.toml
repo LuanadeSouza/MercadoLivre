@@ -15,7 +15,7 @@ converterGson = "3.0.0"
 okhttpLogging = "5.1.0"
 glideCompose = "1.0.0-beta01"
 timber = "5.0.1"
-firebaseBom = "33.16.0"
+firebaseBom = "34.0.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -27,6 +27,8 @@ okhttp = "5.1.0"
 material3 = "1.3.2"
 splash ="1.0.1"
 glide = "4.16.0"
+mockk = "1.14.5"
+turbine = "1.2.1"
 
 
 [libraries]
@@ -77,6 +79,9 @@ core-splashscreen = { group = "androidx.core", name="core-splashscreen", version
 
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -8,9 +8,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/mqdefault"
+        android:icon="@drawable/ic_logo_meli"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/mqdefault"
+        android:roundIcon="@drawable/ic_logo_meli"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.App.Starting">

@@ -10,12 +10,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -110,18 +108,10 @@ fun ProductDetailScreen(
                 }
 
                 viewState.errorMessage != null -> {
-                    Text(
-                        text = viewState.errorMessage!!,
-                        modifier = Modifier.semantics {
-                            contentDescription = "Erro: ${viewState.errorMessage}"
-                        },
-                        color = MaterialTheme.colorScheme.error,
-                        style = MaterialTheme.typography.bodyLarge
+                    ProductDetailErrorScreen(
+                        onBackToSearch = { navController.popBackStack() },
+                        onGoToHome = { navController.navigate("search") { popUpTo(0) } }
                     )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    Button(onClick = { viewModel.loadProductDetail(productId) }) {
-                        Text(stringResource(id = R.string.retry))
-                    }
                 }
 
                 viewState.productDetail != null -> {

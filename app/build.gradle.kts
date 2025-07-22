@@ -93,6 +93,10 @@ dependencies {
     testImplementation(libs.mockito.kotlin)
     testImplementation(libs.coroutines.test)
     testImplementation(libs.core.testing)
+    testImplementation(libs.mockk)
+    testImplementation(libs.turbine)
+    testImplementation(libs.junit)
+    testImplementation(libs.coroutines.test)
 
     // SplashScreen
     implementation(libs.core.splashscreen)

@@ -44,7 +44,7 @@ fun SplashScreen(onTimeout: () -> Unit) {
         Image(
             modifier = Modifier
                 .fillMaxSize(),
-            painter = painterResource(id = R.drawable.mqdefault),
+            painter = painterResource(id = R.drawable.ic_logo_meli),
             contentDescription = stringResource(id = R.string.image_description_logo),
         )
     }
