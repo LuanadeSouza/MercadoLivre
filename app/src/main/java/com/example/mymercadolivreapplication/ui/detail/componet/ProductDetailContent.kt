@@ -8,12 +8,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
@@ -21,6 +23,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -37,6 +40,7 @@ import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
 import com.example.mymercadolivreapplication.ui.theme.Typography
 import java.util.Locale
+import kotlin.math.roundToInt
 
 /**
  * Main content of the product details screen.
@@ -116,20 +120,49 @@ fun ProductDetailContent(product: ProductDetail) {
         }
         Spacer(modifier = Modifier.height(16.dp))
 
-        // Price
-        Text(
-            text = formatPrice(product.price, product.currencyId),
-            style = Typography.bodyLarge,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier
-                .padding(bottom = 8.dp)
-                .semantics {
-                    contentDescription =
-                        "Preço do produto: ${
-                            formatPrice(product.price, product.currencyId)
-                        }"
+        Column(
+            modifier = Modifier.padding(bottom = 8.dp)
+        ) {
+            product.originalPrice?.let {
+                Text(
+                    text = formatPrice(it, product.currencyId),
+                    style = Typography.bodyLarge,
+                    fontWeight = FontWeight.Normal,
+                    textDecoration = TextDecoration.LineThrough,
+                    modifier = Modifier
+                        .padding(bottom = 2.dp)
+                        .semantics {
+                            contentDescription = "Preço original: ${formatPrice(it, product.currencyId)}"
+                        }
+                )
+            }
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                Text(
+                    text = formatPrice(product.price, product.currencyId),
+                    style = Typography.bodyLarge,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.semantics {
+                        contentDescription = "Preço atual: ${formatPrice(product.price, product.currencyId)}"
+                    }
+                )
+
+                product.originalPrice?.let { original ->
+                    val discountPercentage = ((original - product.price) / original) * 100
+                    Text(
+                        text = "${discountPercentage.roundToInt()}% OFF",
+                        style = Typography.bodySmall,
+                        color = GreenCustom,
+                        modifier = Modifier.semantics {
+                            contentDescription = "Desconto de ${discountPercentage.roundToInt()}%"
+                        }
+                    )
                 }
-        )
+            }
+        }
 
         // Condição
         val conditionFormatted = product.condition.replaceFirstChar {
@@ -204,6 +237,7 @@ fun ProductDetailContentPreview() {
                 id = "MLA123",
                 title = "Smart TV LED 50\" 4K Samsung",
                 price = 2500.00,
+                originalPrice =  2800.00,
                 currencyId = "BRL",
                 availableQuantity = 5,
                 condition = "novo",

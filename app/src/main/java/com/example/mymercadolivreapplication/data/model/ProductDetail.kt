@@ -26,6 +26,8 @@ data class ProductDetail(
     val title: String,
     @SerializedName("price")
     val price: Double,
+    @SerializedName("original_price")
+    val originalPrice: Double? = null,
     @SerializedName("currency_id")
     val currencyId: String,
     @SerializedName("available_quantity")
