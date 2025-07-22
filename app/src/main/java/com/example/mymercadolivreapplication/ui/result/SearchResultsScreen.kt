@@ -127,13 +127,7 @@ fun SearchResultsScreen(
                 }
 
                 viewState.showNoResults -> {
-                    Text(
-                        text = stringResource(id = R.string.no_results),
-                        style = Typography.bodyLarge,
-                        modifier = Modifier.semantics {
-                            contentDescription = "Nenhum resultado encontrado para a pesquisa."
-                        }
-                    )
+                    NoResultsScreen()
                 }
 
                 viewState.products.isNotEmpty() -> {

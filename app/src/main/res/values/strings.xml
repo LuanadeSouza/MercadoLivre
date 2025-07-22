@@ -12,6 +12,4 @@
     <string name="back_description">Botão Voltar</string>
     <string name="retry">Tentar novamente</string>
     <string name="image_description_logo">Imagem de duas mãos se apertando em um gesto de aperto de mão, simbolizando uma troca de confiança ou parceria.</string>
-    <string name="loading_description">Carregando resultados da pesquisa...</string>
-    <string name="search_icon">Ícone de pesquisa</string>
 </resources>
