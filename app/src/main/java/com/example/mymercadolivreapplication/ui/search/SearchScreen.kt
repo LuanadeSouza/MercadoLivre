@@ -45,14 +45,20 @@ fun SearchScreen(
     navController: NavController,
 ) {
     var searchQuery by remember { mutableStateOf(TextFieldValue("")) }
+    val appNameDescription = stringResource(R.string.app_name)
+    val searchFieldDescription = stringResource(id = R.string.search_field_label)
+    val searchButtonDescription = stringResource(id = R.string.search_button_description)
 
     Scaffold(
         topBar = {
             TopAppBar(
                 title = {
                     Text(
-                        text = stringResource(R.string.app_name),
-                        style = Typography.bodyLarge
+                        text = appNameDescription,
+                        style = Typography.bodyLarge,
+                        modifier = Modifier.semantics {
+                            contentDescription = appNameDescription
+                        }
                     )
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -72,10 +78,10 @@ fun SearchScreen(
         ) {
             Image(
                 painter = painterResource(R.drawable.ic_logo_mercado),
-                contentDescription = "Nenhum resultado encontrado",
+                contentDescription = stringResource(id = R.string.image_description_logo),
             )
 
-            Spacer(modifier = Modifier.height(24.dp))
+            Spacer(modifier = Modifier.height(10.dp))
 
             OutlinedTextField(
                 value = searchQuery,
@@ -83,7 +89,7 @@ fun SearchScreen(
                 label = { Text(text = stringResource(id = R.string.search_hint)) },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .semantics { contentDescription = "Campo de busca" }
+                    .semantics { contentDescription = searchFieldDescription }
             )
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -102,7 +108,11 @@ fun SearchScreen(
                 )
             ) {
                 Spacer(modifier = Modifier.width(8.dp))
-                Text(text = stringResource(id = R.string.search_button))
+                Text(
+                    text = stringResource(id = R.string.search_button),
+                    modifier = Modifier.semantics {
+                        contentDescription = searchButtonDescription
+                    })
             }
         }
     }
