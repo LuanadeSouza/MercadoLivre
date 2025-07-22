@@ -33,6 +33,7 @@ import com.bumptech.glide.integration.compose.GlideImage
 import com.example.mymercadolivreapplication.R
 import com.example.mymercadolivreapplication.data.model.Product
 import com.example.mymercadolivreapplication.data.model.Shipping
+import com.example.mymercadolivreapplication.ui.component.RatingStars
 import com.example.mymercadolivreapplication.ui.theme.BlueCustom
 import com.example.mymercadolivreapplication.ui.theme.GreenCustom
 import com.example.mymercadolivreapplication.ui.theme.MyMercadoLivreApplicationTheme
@@ -207,42 +208,6 @@ fun formatPrice(price: Double, currencyId: String): String {
     return format.format(price)
 }
 
-/**
- * Composable function to display rating stars based on available quantity.
- * It displays a filled star or an outlined star depending on the number of available items.
- *
- * @param availableQuantity The available quantity of the product, used to determine how many stars should be filled.
- */
-@Composable
-fun RatingStars(availableQuantity: Int) {
-    val starsFilled = if (availableQuantity >= 10) {
-        5
-    } else {
-        (availableQuantity / 2).coerceAtMost(5)
-    }
-
-    Row(
-        horizontalArrangement = Arrangement.spacedBy(2.dp)
-    ) {
-        for (i in 1..5) {
-            if (i <= starsFilled) {
-                Icon(
-                    imageVector = Icons.Filled.Star,
-                    contentDescription = "Estrela $i",
-                    tint = BlueCustom,
-                    modifier = Modifier.size(8.dp)
-                )
-            } else {
-                Icon(
-                    imageVector = Icons.Outlined.Star,
-                    contentDescription = "Estrela $i",
-                    tint = Color.Gray,
-                    modifier = Modifier.size(8.dp)
-                )
-            }
-        }
-    }
-}
 
 @Preview(showBackground = true)
 @Composable
