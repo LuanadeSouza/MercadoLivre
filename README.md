@@ -13,9 +13,9 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 </p>
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/45ac4361-0464-4f4c-920f-c85da99dedd7" width="30%" />
   <img src="https://github.com/user-attachments/assets/e0c42aef-b03a-464f-8083-55c3663a86e5" width="30%" />
-   <img src="https://github.com/user-attachments/assets/dc6360e7-6815-49a0-a79c-3c236c5af861" width="30%" />
+  <img src="https://github.com/user-attachments/assets/45ac4361-0464-4f4c-920f-c85da99dedd7" width="30%" />
+  <img src="https://github.com/user-attachments/assets/dc6360e7-6815-49a0-a79c-3c236c5af861" width="30%" />
 </p>
 
 ---
