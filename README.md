@@ -45,7 +45,6 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 │   └── component           # Componentes reutilizáveis (ex: RatingStars)
 ├── data
 │   ├── model               # Modelos: Product, ProductDetail, etc.
-│   └── remote              # Interface Retrofit (não implementada neste mock)
 ├── di                      # Módulos de injeção Hilt
 ├── utils                   # AssetUtils, FirebaseAnalyticsManager
 ├── navigation              # Navegação entre telas
