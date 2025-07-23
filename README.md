@@ -35,20 +35,19 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 
 ## 🧠 Arquitetura
 
-```plaintext
-📦 mymercadolivreapplication
-├── ui
-│   ├── splash              # Splash screen com animação
-│   ├── search              # Tela de busca e ViewModel
-│   ├── result              # Tela de resultados + ProductItem
-│   ├── detail              # Detalhes do produto + estado + erro
-│   └── component           # Componentes reutilizáveis (ex: RatingStars)
-├── data
-│   ├── model               # Modelos: Product, ProductDetail, etc.
-├── di                      # Módulos de injeção Hilt
-├── utils                   # AssetUtils, FirebaseAnalyticsManager
-├── navigation              # Navegação entre telas
-└── MainActivity.kt         # Entry point com Theme e Navigation
+📦 mymercadolivreapplication  
+├── ui  
+│   ├── splash              # Splash screen com animação  
+│   ├── search              # Tela de busca e ViewModel  
+│   ├── result              # Tela de resultados + ProductItem  
+│   ├── detail              # Detalhes do produto + estado + erro  
+│   └── component           # Componentes reutilizáveis (ex: RatingStars)  
+├── data  
+│   ├── model               # Modelos: Product, ProductDetail, etc.  
+├── di                      # Módulos de injeção Hilt  
+├── utils                   # AssetUtils, FirebaseAnalyticsManager  
+├── navigation              # Navegação entre telas  
+└── MainActivity.kt         # Entry point com Theme e Navigation 
 
 ---
 
@@ -65,7 +64,8 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 
 ## 🧪 Testes Automatizados
 
-Testes são fundamentais para garantir a estabilidade, previsibilidade e confiança em um projeto Android moderno — especialmente em times colaborativos ou projetos que evoluem com frequência.
+Testes são fundamentais para garantir a estabilidade, previsibilidade e confiança em um projeto Android
+moderno — especialmente em times colaborativos ou projetos que evoluem com frequência.
 
 Este projeto conta com testes de unidade para os principais ViewModels:
 
@@ -92,7 +92,8 @@ Com isso, é possível:
 
 ## 📋 Cenários BDD
 
-Para facilitar a documentação e validação de comportamento, incluímos cenários BDD (Behavior-Driven Development) com foco em usabilidade, navegação e estados de tela.
+Para facilitar a documentação e validação de comportamento, incluímos cenários BDD (Behavior-Driven Development)
+com foco em usabilidade, navegação e estados de tela.
 
 Você pode visualizar todos os cenários no arquivo:
 
@@ -120,7 +121,8 @@ Esses cenários são úteis para QA, automação de testes e validação funcion
 ## 📱 Acessibilidade
 
 A acessibilidade não é apenas uma boa prática — é um critério de qualidade reconhecido pelo Google.
-Aplicativos com suporte adequado a leitores de tela, descrições semânticas e navegação acessível têm maior visibilidade na Play Store, podendo receber a tag oficial de “Acessível” e melhor posicionamento no ranking de busca.
+Aplicativos com suporte adequado a leitores de tela, descrições semânticas e navegação acessível têm maior
+visibilidade na Play Store, podendo receber a tag oficial de “Acessível” e melhor posicionamento no ranking de busca.
 
 Este app foi desenvolvido com foco em acessibilidade desde a base:
 
