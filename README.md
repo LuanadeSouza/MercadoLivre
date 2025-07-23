@@ -90,6 +90,25 @@ Com isso, é possível:
 
 ---
 
+## 📋 Cenários BDD
+
+Para facilitar a documentação e validação de comportamento, incluímos cenários BDD (Behavior-Driven Development) com foco em usabilidade, navegação e estados de tela.
+
+Você pode visualizar todos os cenários no arquivo:
+
+📄 [`docs/BDD_MyMercadoLivreApplication.md`](./docs/BDD_MyMercadoLivreApplication.md)
+
+Esse arquivo descreve, em português, os comportamentos esperados em cada tela do aplicativo, incluindo:
+
+- Tela de Busca
+- Tela de Resultados
+- Tela de Detalhes
+- Tela de Erro de Produto
+- Tela de Splash
+- Tela de Sem Resultados
+
+Esses cenários são úteis para QA, automação de testes e validação funcional.
+
 ## 📦 Mock de Dados
 
 - Carregamento local via AssetUtils  
