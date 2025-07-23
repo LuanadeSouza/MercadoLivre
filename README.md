@@ -4,6 +4,22 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 
 ---
 
+## 🖼️ Screenshots do App
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/35b0fae1-8aa3-49bd-9001-0beb5dd1b248" width="30%" />
+  <img src="https://github.com/user-attachments/assets/b3a19a33-36ff-433f-b266-625f9b7b1aa7" width="30%" />
+  <img src="https://github.com/user-attachments/assets/3d562b20-217b-46ab-84ac-cf2e6eed69d7" width="30%" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/45ac4361-0464-4f4c-920f-c85da99dedd7" width="30%" />
+  <img src="https://github.com/user-attachments/assets/e0c42aef-b03a-464f-8083-55c3663a86e5" width="30%" />
+   <img src="https://github.com/user-attachments/assets/dc6360e7-6815-49a0-a79c-3c236c5af861" width="30%" />
+</p>
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - *Linguagem:* Kotlin
