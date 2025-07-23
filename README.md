@@ -65,10 +65,28 @@ Aplicativo Android criado como simulação de experiência de compra no Mercado 
 
 ## 🧪 Testes Automatizados
 
-- SearchViewModelTest.kt
-- ProductDetailViewModelTest.kt
+Testes são fundamentais para garantir a estabilidade, previsibilidade e confiança em um projeto Android moderno — especialmente em times colaborativos ou projetos que evoluem com frequência.
 
-Cobertura: carregamento, falhas, reset, sem resultados.
+Este projeto conta com testes de unidade para os principais ViewModels:
+
+- `SearchViewModelTest.kt`
+- `ProductDetailViewModelTest.kt`
+
+Os testes cobrem cenários essenciais como:
+
+- Carregamento inicial dos dados
+- Tratamento de falhas (ex: exceções simuladas)
+- Reset de estados
+- Situações sem resultados
+
+Com isso, é possível:
+
+- Refatorar com segurança
+- Documentar o comportamento esperado da UI
+- Garantir que funcionalidades críticas continuem funcionando mesmo com mudanças futuras
+- Simular dependências (como FirebaseAnalyticsManager) via MockK
+
+> O uso de `MainDispatcherRule`, `Coroutine Test` e `Turbine` permite testes reativos e confiáveis para `StateFlow`.
 
 ---
 
@@ -82,8 +100,15 @@ Cobertura: carregamento, falhas, reset, sem resultados.
 
 ## 📱 Acessibilidade
 
-- Uso intensivo de contentDescription
-- Compatível com leitores de tela
+A acessibilidade não é apenas uma boa prática — é um critério de qualidade reconhecido pelo Google.
+Aplicativos com suporte adequado a leitores de tela, descrições semânticas e navegação acessível têm maior visibilidade na Play Store, podendo receber a tag oficial de “Acessível” e melhor posicionamento no ranking de busca.
+
+Este app foi desenvolvido com foco em acessibilidade desde a base:
+
+- Uso extensivo de `contentDescription` em imagens, botões e textos importantes
+- Compatibilidade com leitores de tela (TalkBack)
+- Semântica clara em componentes interativos (Compose)
+- Experiência inclusiva para usuários com deficiência visual
 
 ---
 
@@ -119,11 +144,12 @@ Cobertura: carregamento, falhas, reset, sem resultados.
 
 ### 🧠 Diferenciais Técnicos
 
-- Arquitetura escalável
-- Firebase Analytics
-- Composables reutilizáveis
-- Testes de ViewModel
-- Splash nativa com ícone animado
+- Arquitetura escalável (MVVM com DI)
+- Firebase Analytics com tagueamento de eventos
+- Acessibilidade com uso extensivo de `contentDescription`
+- Composables reutilizáveis com previews
+- Testes de ViewModel com fluxo completo (mock, falha, sucesso)
+- Splash nativa com ícone animado (MaterialTheme)
 - Logging com Timber
 
 ---
